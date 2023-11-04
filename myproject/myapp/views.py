@@ -14,7 +14,7 @@ def login_view(request):
         if form.is_valid():
             user = form.get_user()
             login(request, user)
-            return redirect('homepage')  # Thay 'home' thành 'homepage'
+            return redirect('homepage') 
     else:
         form = CustomAuthenticationForm()
     return render(request, 'registration/login.html', {'form': form})
@@ -22,7 +22,6 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return redirect('login')  
-
 
 class SignUpView(generic.CreateView):
     form_class = UserCreationForm

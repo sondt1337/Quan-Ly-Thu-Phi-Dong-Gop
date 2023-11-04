@@ -8,14 +8,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-<<<<<<< HEAD:myproject/myproject/settings.py
-SECRET_KEY = 'django-insecure-%n-euq-i5-ttg1^i@0ec$!)_cbfic^zv_0v@0c8yq@*k-x7=1y'
-=======
+# SECRET_KEY = 'django-insecure-%n-euq-i5-ttg1^i@0ec$!)_cbfic^zv_0v@0c8yq@*k-x7=1y'
 SECRET_KEY = 'django-insecure-1v+fbc!rdrq=tbamx4myhnd!#n4ww2rkq1##qqnoxy+xwubf7d'
->>>>>>> 3f016ca0bc73209508bc0e8457c8a967bc5544c5:quanlythuphidonggop/settings.py
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["serval-main-lizard.ngrok-free.app", "localhost"]
 
