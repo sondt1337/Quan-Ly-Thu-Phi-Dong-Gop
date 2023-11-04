@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rickroll Background</title>
+    <style>
+        body {
+            background: url('https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+            margin-top: 30%;
+        }
+
+        p {
+            color: white;
+            font-size: 24px;
+        }
+
+        a {
+            color: #ff3333;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Never Gonna Give You Up</h1>
+    <p>Click below for a special surprise:</p>
+    <a href="{% url 'logout' %}">Đăng xuất</a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Click me!</a>
+</body>
+</html>
