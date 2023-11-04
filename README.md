@@ -1,6 +1,6 @@
-## Bài tập lớn Nhập môn Công nghệ phần mềm
+## Bài tập lớn IT3180 - Quản lý thu phí đóng góp
 
-### Thành Viên
+### Thành viên nhóm 3
 
 | Thành viên     | MSSV     | Vai trò     |
 | -------------- | -------- | ----------- |
@@ -11,7 +11,6 @@
 | Vũ Minh Hiển   | 20210324 |             |
 
 ### Giới thiệu Phần mềm quản lý thu phí đóng góp
-
 
 - Phần mềm Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê là một giải pháp quản lý hiện đại giúp tổ chức theo dõi thông tin cộng đồng và thu tiền một cách hiệu quả.
 - Với hơn 400 hộ gia đình, sinh viên thuê trọ và các khoản đóng góp đa dạng, phần mềm này giúp cán bộ kế toán lập danh sách, thu phí vệ sinh hàng năm và quản lý các đóng góp từ cộng đồng. 
