@@ -2,13 +2,13 @@
 
 ### Thành viên nhóm 3
 
-| Thành viên     | MSSV     | Vai trò     |
-| -------------- | -------- | ----------- |
-| Đinh Thái Sơn  | 20210750 | Trưởng nhóm | 
-| Bùi Văn Huy    | 20210443 | Phó nhóm    |
-| Phạm Quang Huy | 20210448 |             |
-| Trần Ngọc Bảo  | 20215529 |             |
-| Vũ Minh Hiển   | 20210324 |             |
+| Thành viên     | MSSV     | Vai trò     | Nhiệm vụ               |
+| -------------- | -------- | ----------- | ---------------------- |
+| Đinh Thái Sơn  | 20210750 | Trưởng nhóm | Backend, Framework     |
+| Bùi Văn Huy    | 20210443 | Phó nhóm    | Backend                |
+| Phạm Quang Huy | 20210448 |             | Frontend               |
+| Trần Ngọc Bảo  | 20215529 |             | Frontend               |
+| Vũ Minh Hiển   | 20210324 |             | Report                 |
 
 ### Giới thiệu Phần mềm quản lý thu phí đóng góp
 
