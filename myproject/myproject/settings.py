@@ -11,10 +11,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = 'django-insecure-%n-euq-i5-ttg1^i@0ec$!)_cbfic^zv_0v@0c8yq@*k-x7=1y'
 SECRET_KEY = 'django-insecure-1v+fbc!rdrq=tbamx4myhnd!#n4ww2rkq1##qqnoxy+xwubf7d'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["serval-main-lizard.ngrok-free.app", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'nmcnpmapp.CustomUser'
 # Application definition

@@ -34,4 +34,22 @@ class SignUpView(generic.CreateView):
 
 @login_required
 def homepage(request):
-    return render(request, 'myapp/homepage.html')
+    user = request.user
+
+    context = {
+        'username': user.username,
+        'first_name': user.first_name,
+        'last_name': user.last_name,
+        'email': user.email,
+    }
+
+    return render(request, 'myapp/homepage.html', context)
+
+def about(request):
+    return render(request, 'myapp/about.html')
+
+def contact(request):
+    return render(request, 'myapp/contact.html')
+
+def service(request):
+    return render(request, 'myapp/service.html')
