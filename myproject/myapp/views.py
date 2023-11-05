@@ -7,14 +7,18 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse_lazy
 from django.views import generic
+from django.http import HttpResponse
 
 def login_view(request):
     if request.method == 'POST':
         form = CustomAuthenticationForm(data=request.POST)
         if form.is_valid():
             user = form.get_user()
-            login(request, user)
-            return redirect('homepage') 
+            if user.is_approved:
+                login(request, user)
+                return redirect('homepage') 
+            else:
+                return HttpResponse('Your account is awaiting approval.')
     else:
         form = CustomAuthenticationForm()
     return render(request, 'registration/login.html', {'form': form})
@@ -24,7 +28,7 @@ def logout_view(request):
     return redirect('login')  
 
 class SignUpView(generic.CreateView):
-    form_class = UserCreationForm
+    form_class = CustomUserCreationForm
     success_url = reverse_lazy("login")
     template_name = "registration/signup.html"
 

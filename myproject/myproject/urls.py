@@ -1,10 +1,11 @@
-
 from django.urls import path
 from myapp import views
 from myapp.views import SignUpView
+from django.contrib import admin
 from django.views.generic.base import TemplateView
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path('login/', views.login_view, name='login'),
     path('', views.homepage, name='homepage'),
     path('logout/', views.logout_view, name='logout'),

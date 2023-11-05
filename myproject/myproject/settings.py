@@ -14,9 +14,9 @@ SECRET_KEY = 'django-insecure-1v+fbc!rdrq=tbamx4myhnd!#n4ww2rkq1##qqnoxy+xwubf7d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["serval-main-lizard.ngrok-free.app", "localhost"]
+ALLOWED_HOSTS = []
 
-
+AUTH_USER_MODEL = 'myapp.CustomUser'
 # Application definition
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
@@ -54,7 +54,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myproject.urls'
 
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = 'home'
 
 TEMPLATES = [
     {
@@ -84,8 +84,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
