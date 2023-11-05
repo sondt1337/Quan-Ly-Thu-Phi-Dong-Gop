@@ -1,6 +1,6 @@
 from django.urls import path
-from myapp import views
-from myapp.views import SignUpView
+from nmcnpmapp import views
+from nmcnpmapp.views import SignUpView
 from django.contrib import admin
 from django.views.generic.base import TemplateView
 
