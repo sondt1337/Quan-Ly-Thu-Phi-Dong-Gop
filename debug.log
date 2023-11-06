@@ -1,0 +1,1421 @@
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 55, in about
+    return render(request, 'myapp/about.html')
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 135: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 55, in about
+    return render(request, 'myapp/about.html')
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 135: 'static'. Did you forget to register or load this tag?
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 56, in about
+    return render(request, 'myapp/about.html')
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 135: 'static'. Did you forget to register or load this tag?
+Watching for file changes with StatReloader
+Not Found: /wait
+Not Found: /wait
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /wait
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /wait/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view nmcnpmapp.views.wait didn't return an HttpResponse object. It returned None instead.
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token from POST incorrect.): /login/
+Forbidden (CSRF token from POST incorrect.): /login/
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token from POST incorrect.): /login/
+Not Found: /view_family_members/
+Not Found: /view_family_members/
+Not Found: /view_family_members/
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.name
+Internal Server Error: /admin/nmcnpmapp/customuser/3/change/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.name
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 63, in service
+    return render(request, 'myapp/service.html')
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 53: 'else'. Did you forget to register or load this tag?
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.donggop
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.donggop
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.donggop
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.donggop
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.donggop
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.donggop
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.group
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.group
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Forbidden (CSRF token from POST incorrect.): /login/
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/home/spid3r/Documents/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 53, in homepage
+    return render(request, 'myapp/homepage.html', context)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 47: 'static'. Did you forget to register or load this tag?
+Not Found: /about/about/
+Not Found: /about/service
+Not Found: /about/about
+Not Found: /about/service
+Not Found: /service/logout/
+Not Found: /service/about/
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Forbidden (CSRF token missing.): /login/
+Not Found: /login/signup
+Not Found: /favicon.ico
+Forbidden (CSRF token from POST incorrect.): /login/
+Not Found: /favicon.ico

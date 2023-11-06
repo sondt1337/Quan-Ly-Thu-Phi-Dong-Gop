@@ -4,8 +4,8 @@
 
 | Thành viên                                              | MSSV     | Vai trò     | Nhiệm vụ           |
 | ------------------------------------------------------- | -------- | ----------- | ------------------ |
-| [Đinh Thái Sơn](https://github.com/vepiot/)             | 20210750 | Trưởng nhóm | Backend, Framework |
-| [Bùi Văn Huy](https://github.com/buiihuy)               | 20210443 | Phó nhóm    | Backend            |
+| [Đinh Thái Sơn](https://github.com/vepiot/)             | 20210750 | Trưởng nhóm | Backend, Frontend  |
+| [Bùi Văn Huy](https://github.com/buiihuy)               | 20210443 | Phó nhóm    | Frontend           |
 | [Phạm Quang Huy](https://github.com/Huygiauten)         | 20210448 |             | Frontend           |
 | [Trần Ngọc Bảo](https://github.com/TranNgocBao12062003) | 20215529 |             | Frontend           |
 | [Vũ Minh Hiển](https://github.com/Minh-Hien2904)        | 20210324 |             | Report             |

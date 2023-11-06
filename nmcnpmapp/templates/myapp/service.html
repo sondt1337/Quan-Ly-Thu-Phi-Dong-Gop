@@ -3,96 +3,123 @@
   <head>
     <title>Tổ dân phố 7 phường La Khê</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 0;
-      }
-
-      header {
-        background-color: #0a6fb3;
-        color: #fff;
-        text-align: center;
-        padding: 5px;
-      }
-
-      h1 {
-        font-size: 25px;
-      }
-
-      nav {
-        background-color: #3498db;
-        color: #fff;
-        text-align: center;
-        padding: 15px;
-      }
-
-      nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      nav li {
-        display: inline;
-        margin: 10px;
-      }
-
-      main {
-        padding: 20px;
-        margin: 20px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-
-      section {
-        margin: 20px;
-      }
-
-      section h2 {
-        font-size: 24px;
-      }
-
-      #footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-      }
-    </style>
+    {% load static %}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/home-styles.css' %}"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <h1>Trang quản lý tổ dân phố</h1>
+      <h2>Trang quản lý tổ dân phố</h2>
     </header>
-    <nav>
-      <ul>
-        <li><a href="/">Trang chủ</a></li>
-        <li><a href="/about">Giới thiệu</a></li>
-        <li><a href="/service">Dịch vụ</a></li>
-        <li><a href="/contact">Liên hệ</a></li>
-        <li><a href="/logout">Đăng xuất</a></li>
-      </ul>
-    </nav>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Xin chào!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/">Trang chủ <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/about">Giới thiệu</a>
+            <a class="nav-item nav-link" href="/service">Dịch vụ</a>
+            <a class="nav-item nav-link" href="/contact">Liên hệ</a>
+            <a class="nav-item nav-link" href="/logout">Đăng xuất</a>
+          </div>
+        </div>
+      </nav>
     <main>
       <section>
-        <h3>
-          Chào mừng công dân đến với Trang chính của Tổ dân phố 7 phường La Khê
-        </h3>
-        <p>Thông tin cá nhân</p>
-        <p>Số hộ khẩu: <b>{{ username }}</b></p>
-        <p>Chủ tài khoản: <b>{{ last_name }} {{ first_name }} </b></p>
-        <p>Email: {{email}}</p>
-    </section>
-      
+        <h2>
+          Cổng dịch vụ tổ dân phố 7 phường La Khê
+        </h2>
+        <br/>
+        <p><b>Vui lòng chọn các tùy chọn dịch vụ dưới đây</b></p>
+        <p id="service1">1. Xem thông tin thành viên trong gia đình</p>
+        <p id="service2">2. Xem tình trạng đóng phí cho tổ dân phố</p>
+        <p id="service3">3. Xem danh sách đóng góp cho tổ dân phố</p>
+      </section>
+      <div id="service1Detail" style="display: none;">
+        <ul>
+          {% for group in user.groups.all %}
+            <p>Mã hộ khẩu: <b>{{ group.name }}</b></p>
+            <p>Thông tin thành viên gia đình: </p>
+            <ul>
+              {% for user in group.user_set.all %}
+                <li>{{user.username}} - {{ user.last_name }} {{ user.first_name }} đã đóng góp {{user.donggop}}đ</li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </ul>
+      </div>
+      <div id="service2Detail" style="display: none;">
+        {% if user.dongphi %}
+        <ul><p>Công dân {{ user.last_name }} {{ user.first_name }} <b>đã đóng phí cho tổ dân phố</b></p>
+        {% else %}
+        <ul><p>Công dân {{ user.last_name }} {{ user.first_name }} <b>chưa đóng phí</b>, vui lòng hoàn thành sớm với kế toán tổ dân phố</p>
+        {% endif %}
+    </div>
+    <div id="service3Detail" style="display: none;">
+      <ul>
+      <p>Danh sách đóng góp cho tổ dân phố:</p>
+      <table>
+          <thead>
+              <tr>
+                  <th>Tên</th>
+                  <th>Giá trị đóng góp</th>
+              </tr>
+          </thead>
+          <tbody>
+            
+              {% for user in users_donggop %}
+                  <tr>
+                      <td>{{ user.last_name }} {{ user.first_name }}</td>
+                      <td>{{ user.donggop }} đồng</td>
+                  </tr>
+              {% endfor %}
+          </tbody>
+      </table>
+  </div>
     </main>
     <div id="footer">&copy; 2023 Nhóm 3 - Nhập môn Công nghệ phần mềm.</div>
+    <div id="familyMemberModal" class="modal" style="display: none;">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <div id="modalContent">
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById('service1').addEventListener('click', function () {
+        var service1Detail = document.getElementById('service1Detail');
+        if (service1Detail.style.display === 'none' || service1Detail.style.display === '') {
+          service1Detail.style.display = 'block';
+        } else {
+          service1Detail.style.display = 'none';
+        }
+      });
+      document.getElementById('service2').addEventListener('click', function () {
+        var service1Detail = document.getElementById('service2Detail');
+        if (service1Detail.style.display === 'none' || service1Detail.style.display === '') {
+          service1Detail.style.display = 'block';
+        } else {
+          service1Detail.style.display = 'none';
+        }
+      });
+      document.getElementById('service3').addEventListener('click', function () {
+        var service1Detail = document.getElementById('service3Detail');
+        if (service1Detail.style.display === 'none' || service1Detail.style.display === '') {
+          service1Detail.style.display = 'block';
+        } else {
+          service1Detail.style.display = 'none';
+        }
+      });
+    </script>
   </body>
-  
 </html>
