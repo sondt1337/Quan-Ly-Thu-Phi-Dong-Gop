@@ -1419,3 +1419,6 @@ Not Found: /login/signup
 Not Found: /favicon.ico
 Forbidden (CSRF token from POST incorrect.): /login/
 Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
