@@ -41,7 +41,6 @@ def homepage(request):
     user = request.user
     user_groups = user.groups.all()
     group_name = user_groups[0].name if user_groups else None
-
     context = {
         'username': user.username,
         'first_name': user.first_name,
@@ -76,7 +75,9 @@ def wait(request):
     else:
         return redirect('homepage') 
 
-
-def service_view(request):
-    users_donggop = CustomUser.objects.filter(donggop__gt=0)
-    return render(request, 'service.html', {'users_donggop': users_donggop})
+def find_users_donggop(request):
+    users_donggop = []
+    for user in CustomUser.objects.all():
+        if user.donggop:
+            users_donggop.append(user)
+    return render(request, 'myapp/service.html', {'users_donggop': users_donggop})

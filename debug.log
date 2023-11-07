@@ -1431,3 +1431,1126 @@ D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\settings.p
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /service3/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 88, in service3_view
+    return render(request, 'service.html', {'users_donggop': users_donggop})
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service.html
+Internal Server Error: /service3/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 88, in service3_view
+    return render(request, 'service.html', {'users_donggop': users_donggop})
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service.html
+Internal Server Error: /service3/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 88, in service3_view
+    return render(request, 'service.html', {'users_donggop': users_donggop})
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service.html
+Internal Server Error: /service3/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 88, in service3_view
+    return render(request, 'service.html', {'users_donggop': users_donggop})
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service.html
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 73: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 71: 'for'. Looking for one of: empty, endfor.
+Watching for file changes with StatReloader
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 74, in service
+    return render(request, 'myapp/service.html', context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /find_users_dongphi/
+Traceback (most recent call last):
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 100, in find_users_dongphi
+    return render(request, 'service.html', {'users_donggop': users_donggop})
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\msys64\mingw64\lib\python3.10\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service.html
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Github\Quan-Ly-Thu-Phi-Dong-Gop\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /about/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/img/dinhthaison.png
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/img/dinhthaison.png
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/dinhthaison.png
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Watching for file changes with StatReloader
+Not Found: /about/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /dinhthaison.png
+Not Found: /about/phamquanghuy.jpg
+Not Found: /dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /dinhthaison.png
+Not Found: /about/phamquanghuy.jpg
+Not Found: /img/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /img/dinhthaison.png
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /img/dinhthaison.png
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /img/dinhthaison.png
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/phamquanghuy.jpg
+Not Found: /about/buivanhuy.jpg
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

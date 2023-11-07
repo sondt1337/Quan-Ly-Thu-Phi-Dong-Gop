@@ -60,32 +60,23 @@
       </div>
       <div id="service2Detail" style="display: none;">
         {% if user.dongphi %}
-        <ul><p>Công dân {{ user.last_name }} {{ user.first_name }} <b>đã đóng phí cho tổ dân phố</b></p>
+        <ul><p>Công dân {{ user.last_name }} {{ user.first_name }} <b>đã đóng phí</b> cho tổ dân phố</p>
         {% else %}
         <ul><p>Công dân {{ user.last_name }} {{ user.first_name }} <b>chưa đóng phí</b>, vui lòng hoàn thành sớm với kế toán tổ dân phố</p>
         {% endif %}
     </div>
-    <div id="service3Detail" style="display: none;">
+    <div id="service3Detail" style="display: block;">
       <ul>
-      <p>Danh sách đóng góp cho tổ dân phố:</p>
-      <table>
-          <thead>
-              <tr>
-                  <th>Tên</th>
-                  <th>Giá trị đóng góp</th>
-              </tr>
-          </thead>
-          <tbody>
-            
-              {% for user in users_donggop %}
-                  <tr>
-                      <td>{{ user.last_name }} {{ user.first_name }}</td>
-                      <td>{{ user.donggop }} đồng</td>
-                  </tr>
-              {% endfor %}
-          </tbody>
-      </table>
-  </div>
+        <p>Danh sách người đã đóng góp:</p>
+        {% for user in users_donggop %}
+          <p>Tên: {{ user.first_name }} {{ user.last_name }}</p>
+          <p>Mã hộ khẩu: {{ user.group }}</p>
+          <p>Số tiền đóng góp: {{ user.donggop }} đồng</p>
+        {% endfor %}
+      </ul>
+    </div>
+     
+    </ul>
     </main>
     <div id="footer">&copy; 2023 Nhóm 3 - Nhập môn Công nghệ phần mềm.</div>
     <div id="familyMemberModal" class="modal" style="display: none;">
@@ -105,20 +96,16 @@
         }
       });
       document.getElementById('service2').addEventListener('click', function () {
-        var service1Detail = document.getElementById('service2Detail');
-        if (service1Detail.style.display === 'none' || service1Detail.style.display === '') {
-          service1Detail.style.display = 'block';
+        var service2Detail = document.getElementById('service2Detail');
+        if (service2Detail.style.display === 'none' || service2Detail.style.display === '') {
+          service2Detail.style.display = 'block';
         } else {
-          service1Detail.style.display = 'none';
+          service2Detail.style.display = 'none';
         }
       });
-      document.getElementById('service3').addEventListener('click', function () {
-        var service1Detail = document.getElementById('service3Detail');
-        if (service1Detail.style.display === 'none' || service1Detail.style.display === '') {
-          service1Detail.style.display = 'block';
-        } else {
-          service1Detail.style.display = 'none';
-        }
+      document.getEementById('service3').addEventListener('click', function () {
+        var service3Detail = document.getElementById('service3Detail');
+        service3Detail.style.display = 'block';
       });
     </script>
   </body>

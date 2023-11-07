@@ -14,7 +14,7 @@ urlpatterns = [
     path("about/", views.about, name="about"),
     path("service/", views.service, name="service"),
     path("wait/", views.wait, name="wait"),
-    # path('view_family_members/', views.view_family_members, name='view_family_members'),
+    path('find_users_donggop/', views.find_users_donggop, name='find_users_donggop'),
     # path('view_family_members/<str:group_name>/', views.view_family_members, name='view_family_members_with_group'),
     # path('view_family_members/', views.view_family_members, name='view_family_members'),
 ]
