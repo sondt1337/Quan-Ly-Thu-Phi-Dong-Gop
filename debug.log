@@ -2592,3 +2592,322 @@ Watching for file changes with StatReloader
 C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\myproject\settings.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 65, in service
+    return render(request, 'myapp/service.html', {'user_names': user_names})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 76: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 63, in service
+    contributing_users = CustomUser.objects.filter(Donggop__isnull=False)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'Donggop' into field. Choices are: date_joined, donggop, dongphi, email, familymember, first_name, group, groups, id, is_active, is_approved, is_staff, is_superuser, last_login, last_name, logentry, name, password, user_permissions, username
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 66, in service
+    'last_name': user.lastname,
+                 ^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'lastname'. Did you mean: 'last_name'?
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 64, in service
+    user_names = [user.last_name() for user in contributing_users]
+                  ^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 64, in service
+    user_names = [user.last_name() for user in contributing_users]
+                  ^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 64, in service
+    user_names = [user.last_name() for user in contributing_users]
+                  ^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 64, in service
+    user_names = [user.last_name() for user in contributing_users]
+                  ^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+Internal Server Error: /service/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 64, in service
+    user_names = [user.last_name for user in contributing_users]
+                  ^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\ADMIN\Downloads\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader

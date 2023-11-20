@@ -60,7 +60,19 @@ def contact(request):
     
 @login_required
 def service(request):
-    return render(request, 'myapp/service.html')
+    contributing_users = CustomUser.objects.filter(donggop__gt=0)
+    user_names = [user.last_name for user in contributing_users]
+    user_info_list = [
+        {
+            'last_name': user.last_name,
+            'first_name': user.first_name,
+            'donggop': user.donggop,
+            'group': user.group,
+        }
+        for user in contributing_users
+    ]
+
+    return render(request, 'myapp/service.html', {'user_info_list': user_info_list})
 
 @login_required
 def wait(request):
@@ -74,10 +86,3 @@ def wait(request):
             return render(request, 'myapp/hompage.html')
     else:
         return redirect('homepage') 
-
-def find_users_donggop(request):
-    users_donggop = []
-    for user in CustomUser.objects.all():
-        if user.donggop:
-            users_donggop.append(user)
-    return render(request, 'myapp/service.html', {'users_donggop': users_donggop})
