@@ -26,7 +26,7 @@ pip install django
 ```
 python manage.py runserver
 ```
-Ứng dụng sẽ được chạy ở [http://localhost:3000](http://localhost:3000)
+Ứng dụng sẽ được chạy local ở [http://localhost:8000](http://localhost:8000) (port mặc định của Django)
 ## DEMO
 1. Sản phẩm demo: [DEMO](https://projectnmcnpm--sondt210750.repl.co/)
 2. Tài khoản thường
