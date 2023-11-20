@@ -12,7 +12,6 @@ Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình t
 | [Phạm Quang Huy](https://github.com/Huygiauten)         | 20210448 |             | Frontend (Lập trình)          |
 | [Trần Ngọc Bảo](https://github.com/TranNgocBao12062003) | 20215529 |             | Frontend (Lập trình)          |
 | [Vũ Minh Hiển](https://github.com/Minh-Hien2904)        | 20210324 |             | Report                        |
-## Giới thiệu
 ## Cài đặt
 1. Tải repository
 ```
