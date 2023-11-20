@@ -1,5 +1,5 @@
 {
-    "name": "vepiot/Quan-Ly-Thu-Phi-Dong-Gop",
+    "name": "vepiot/quan-ly-thu-phi-dong-gop",
     "description": "quan ly thu chi dong gop phuong La Khe",
     "require": {
         "php": ">=8.2",
