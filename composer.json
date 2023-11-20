@@ -2,7 +2,6 @@
     "name": "vepiot/quan-ly-thu-phi-dong-gop",
     "description": "quan ly thu chi dong gop phuong La Khe",
     "require": {
-        "php": ">=8.2",
-        "another-vendor/package": "1.*"
+        "django" >= "1.*"
     }  
 }
