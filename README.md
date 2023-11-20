@@ -1,5 +1,5 @@
 # Bài tập lớn IT3180 - Quản lý thu phí đóng góp
-![image](https://img.shields.io/packagist/dt/vepiot/quan-ly-thu-phi-dong-gop.svg)
+
 
 Phần mềm Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê là một giải pháp quản lý hiện đại giúp tổ chức theo dõi thông tin cộng đồng và thu tiền một cách hiệu quả.
 
