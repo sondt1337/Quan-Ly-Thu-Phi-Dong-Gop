@@ -1,5 +1,5 @@
 {
-    "name": "Quan-Ly-Thu-Phi-Dong-Gop",
+    "name": "vepiot/Quan-Ly-Thu-Phi-Dong-Gop",
     "description": "A short description of what your package does",
     "require": {
         "php": ">=8.2",
