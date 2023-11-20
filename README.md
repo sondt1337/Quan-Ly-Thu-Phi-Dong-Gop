@@ -33,9 +33,9 @@ python manage.py runserver
 2. Tài khoản thường
 Người dùng có thể tự tạo tài khoản ở phần Đăng ký
 
-![image](https://hackmd.io/_uploads/HJ8eAmYN6.png)
+![image](https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop/assets/87920408/aec12e3f-4ad2-46b5-8e4a-60a06dbfdd0e)
 
-3. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm--sondt210750.repl.co/admin)):
+4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm--sondt210750.repl.co/admin)):
 - Tên tài khoản: `admin`
 - Mật khẩu: `admin123`
 ## Giới thiệu phần mềm
@@ -43,4 +43,4 @@ Phần mềm quản lý thu phí đóng góp cho tổ dân phố là một ứng
 
 Trang quản trị Django: 
 
-![image](https://hackmd.io/_uploads/ryiPimYNp.png)
+![image](https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop/assets/87920408/87ebafca-31af-4fc9-b3a7-d98025e219ba)
