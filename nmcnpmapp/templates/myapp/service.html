@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Tổ dân phố 7 phường La Khê</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,114 +35,123 @@
         <p>
           <b>Vui lòng chọn các tùy chọn dịch vụ dưới đây</b>
         </p>
-        <p id="service1">1. Xem thông tin thành viên trong gia đình</p>
-        <p id="service2">2. Xem tình trạng đóng phí cho tổ dân phố</p>
-        <p id="service3">3. Xem danh sách đóng góp cho tổ dân phố (Công khai)</p>
+        <p id="service1">
+          <a href="#" data-toggle="modal" data-target="#service1Modal">1. Xem thông tin thành viên trong gia đình</a>
+        </p>
+        <p id="service2">
+          <a href="#" data-toggle="modal" data-target="#service2Modal">2. Xem tình trạng đóng phí cho tổ dân phố</a>
+        </p>
+        <p id="service3">
+          <a href="#" data-toggle="modal" data-target="#service3Modal">3. Xem danh sách đóng góp cho tổ dân phố (Công khai)</a>
+        </p>
       </section>
-      <div id="service1Detail" style="display: none;">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Mã hộ khẩu</th>
-              <th scope="col">Thành viên gia đình</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for group in user.groups.all %}
-              <tr>
-                <td>
-                  <b>{{ group.name }}</b>
-                </td>
-                <td>
-                  {% for family_member in group.user_set.all %}
-                    {{ family_member.last_name }} {{ family_member.first_name }}<br />
-                  {% endfor %}
-                </td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-
-      <div id="service2Detail" style="display: none;">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Họ và tên</th>
-              <th scope="col">Tình trạng đóng phí</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{{ user.last_name }} {{ user.first_name }}</td>
-              <td>
-                {% if user.dongphi %}
-                  <b>Đã đóng phí</b>
-                {% else %}
-                  <b>Chưa đóng phí</b>, vui lòng hoàn thành sớm với kế toán tổ dân phố
-                {% endif %}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div id="service3Detail" style="display: none;">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Họ và tên</th>
-              <th scope="col">Số tiền đóng góp</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for user_info in user_info_list %}
-              <tr>
-                <td>{{ user_info.last_name }} {{ user_info.first_name }}</td>
-                <td>{{ user_info.donggop }} đồng</td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
     </main>
     <div id="footer">&copy; 2023 Nhóm 3 - Nhập môn Công nghệ phần mềm.</div>
-    <div id="familyMemberModal" class="modal" style="display: none;">
-      <div class="modal-content">
-        <span class="close" id="closeModal">&times;</span>
-        <div id="modalContent"></div>
+
+    <div class="modal fade" id="service1Modal" tabindex="-1" role="dialog" aria-labelledby="service1ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="service1ModalLabel">Thông tin thành viên trong gia đình</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Mã hộ khẩu</th>
+                  <th scope="col">Thành viên gia đình</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for group in user.groups.all %}
+                  <tr>
+                    <td>
+                      <b>{{ group.name }}</b>
+                    </td>
+                    <td>
+                      {% for family_member in group.user_set.all %}
+                        {{ family_member.last_name }} {{ family_member.first_name }}<br />
+                      {% endfor %}
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
       </div>
     </div>
-    <script>
-      document.getElementById('service1').addEventListener('click', function () {
-        var service1Detail = document.getElementById('service1Detail')
-        var service2Detail = document.getElementById('service2Detail')
-        var service3Detail = document.getElementById('service3Detail')
-      
-        service1Detail.style.display = 'block'
-        service2Detail.style.display = 'none'
-        service3Detail.style.display = 'none'
-      })
-      
-      document.getElementById('service2').addEventListener('click', function () {
-        var service1Detail = document.getElementById('service1Detail')
-        var service2Detail = document.getElementById('service2Detail')
-        var service3Detail = document.getElementById('service3Detail')
-      
-        service1Detail.style.display = 'none'
-        service2Detail.style.display = 'block'
-        service3Detail.style.display = 'none'
-      })
-      
-      document.getElementById('service3').addEventListener('click', function () {
-        var service1Detail = document.getElementById('service1Detail')
-        var service2Detail = document.getElementById('service2Detail')
-        var service3Detail = document.getElementById('service3Detail')
-      
-        service1Detail.style.display = 'none'
-        service2Detail.style.display = 'none'
-        service3Detail.style.display = 'block'
-      })
-    </script>
+
+    <div class="modal fade" id="service2Modal" tabindex="-1" role="dialog" aria-labelledby="service2ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="service2ModalLabel">Tình trạng đóng phí cho tổ dân phố</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Họ và tên</th>
+                  <th scope="col">Tình trạng đóng phí</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{ user.last_name }} {{ user.first_name }}</td>
+                  <td>
+                    {% if user.dongphi %}
+                      <b>Đã đóng phí</b>
+                    {% else %}
+                      <b>Chưa đóng phí</b>, vui lòng hoàn thành sớm với kế toán tổ dân phố
+                    {% endif %}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="service3Modal" tabindex="-1" role="dialog" aria-labelledby="service3ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="service3ModalLabel">Danh sách đóng góp cho tổ dân phố (Công khai)</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Họ và tên</th>
+                  <th scope="col">Số tiền đóng góp</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for user_info in user_info_list %}
+                  <tr>
+                    <td>{{ user_info.last_name }} {{ user_info.first_name }}</td>
+                    <td>{{ user_info.donggop }} đồng</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

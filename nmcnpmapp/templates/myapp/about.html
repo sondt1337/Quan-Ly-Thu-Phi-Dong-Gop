@@ -34,78 +34,54 @@
           </div>
         </div>
       </nav>
-    <main>
-      <section>
-        <h3>Giới thiệu về trang này</h3>
-        <h4>1. Giới thiệu về phần mềm thu phí và đóng góp cho Tổ dân phố</h4>
-        <p>
-          Phần mềm Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê là
-          một giải pháp quản lý hiện đại giúp tổ chức theo dõi thông tin cộng
-          đồng và thu tiền một cách hiệu quả.
-        </p>
-        <p>
-          Với hơn 400 hộ gia đình, sinh viên thuê trọ và các khoản đóng góp đa
-          dạng, phần mềm này giúp cán bộ kế toán lập danh sách, thu phí vệ sinh
-          hàng năm và quản lý các đóng góp từ cộng đồng.
-        </p>
-        <p>
-          Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình tài chính
-          và tăng cường tính minh bạch trong quản lý. Dự án này sẽ nâng cao quản
-          lý tổ dân phố thông qua công nghệ thông tin và hiệu quả hóa quy trình
-          quản lý tài chính.
-        </p>
-        <h4>2. Đội ngũ thực hiện sản phẩm</h4>
-        {% load static %}
-        <ulq>
-          <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <div class="member">
-                        <img src="{% static 'img/dinhthaison.png' %}" alt="Member 1" class="img-fluid rounded-circle">
-                        <h6>Đinh Thái Sơn</h6>
-                        <p>Developer/Backend</p>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="member">
-                        <img src="{% static 'img/buoivanhuy.jpg' %}" alt="Member 2" class="img-fluid rounded-circle">
-                        <h6>Bùi Văn Huy</h6>
-                        <p>Designer/Frontend</p>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="member">
-                        <img src="{% static 'img/phamquanghuy.jpg' %}" alt="Member 3" class="img-fluid rounded-circle">
-                        <h6>Phạm Quang Huy</h6>
-                        <p>Developer/Frontend</p>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                  <div class="member">
-                      <img src="{% static 'img/tranngocbao.jpg' %}" alt="Member 1" class="img-fluid rounded-circle">
-                      <h6>Trần Ngọc Bảo</h6>
-                      <p>Developer/Database</p>
-                      <p></p>
-                  </div>
-              </div>
-              <div class="col-md-2">
-                  <div class="member">
-                      <img src="{% static 'img/vuminhhien.jpg' %}" alt="Member 2" class="img-fluid rounded-circle">
-                      <h6>Vũ Minh Hiển</h6>
-                      <p>Writting/Report</p>
-                  </div>
+      <main>
+        <section>
+          <h3>Giới thiệu về trang này</h3>
+          <h4 class="mt-4">1. Giới thiệu về phần mềm thu phí và đóng góp cho Tổ dân phố</h4>
+          <p>Phần mềm Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê là một giải pháp quản lý hiện đại giúp tổ chức theo dõi thông tin cộng đồng và thu tiền một cách hiệu quả.</p>
+          <p>Với hơn 400 hộ gia đình, sinh viên thuê trọ và các khoản đóng góp đa dạng, phần mềm này giúp cán bộ kế toán lập danh sách, thu phí vệ sinh hàng năm và quản lý các đóng góp từ cộng đồng.</p>
+          <p>Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình tài chính và tăng cường tính minh bạch trong quản lý. Dự án này sẽ nâng cao quản lý tổ dân phố thông qua công nghệ thông tin và hiệu quả hóa quy trình quản lý tài chính.</p>
+          <h4 class="mt-4">2. Đội ngũ thực hiện sản phẩm</h4>
+          <div class="row">
+            <div class="col-md-2">
+              <div class="member text-center">
+                <img src="{% static 'img/dinhthaison.png' %}" alt="Member 1" class="img-fluid rounded-circle mb-2">
+                <h6>Đinh Thái Sơn</h6>
+                <p>Developer/Backend</p>
               </div>
             </div>
-        </div>
-    
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </section>
-    
-    </main>
+            <div class="col-md-2">
+              <div class="member text-center">
+                <img src="{% static 'img/buoivanhuy.jpg' %}" alt="Member 2" class="img-fluid rounded-circle mb-2">
+                <h6>Bùi Văn Huy</h6>
+                <p>Designer/Frontend</p>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="member text-center">
+                <img src="{% static 'img/phamquanghuy.jpg' %}" alt="Member 3" class="img-fluid rounded-circle mb-2">
+                <h6>Phạm Quang Huy</h6>
+                <p>Developer/Frontend</p>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="member text-center">
+                <img src="{% static 'img/tranngocbao.jpg' %}" alt="Member 4" class="img-fluid rounded-circle mb-2">
+                <h6>Trần Ngọc Bảo</h6>
+                <p>Developer/Database</p>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="member text-center">
+                <img src="{% static 'img/vuminhhien.jpg' %}" alt="Member 5" class="img-fluid rounded-circle mb-2">
+                <h6>Vũ Minh Hiển</h6>
+                <p>Writting/Report</p>
+              </div>
+            </div>
+            <!-- Add the remaining four team members here -->
+          </div>
+        </section>
+      </main>
     <div id="footer">&copy; 2023 Nhóm 3 - Nhập môn Công nghệ phần mềm.</div>
   </body>
 </html>
