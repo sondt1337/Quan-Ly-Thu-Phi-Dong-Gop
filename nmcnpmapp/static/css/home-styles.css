@@ -3,35 +3,36 @@ body {
     background-color: #674f4f;
     margin: 0;
     padding: 0;
-  }
+}
 
-  header {
+header {
     background-color: #0a6fb3;
     color: #ffffff;
     text-align: center;
     padding: 5px;
-  }
+}
 
-  h1 {
+h1 {
     font-size: 25px;
-  }
-  main {
+}
+
+main {
     padding: 20px;
     margin: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  section {
+section {
     margin: 20px;
-  }
+}
 
-  section h2 {
+section h2 {
     font-size: 24px;
-  }
+}
 
-  #footer {
+#footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -39,61 +40,63 @@ body {
     color: #fff;
     text-align: center;
     padding: 10px;
-  }
-  li img {
+}
+
+li img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
     margin-right: 10px;
-  }
+}
 
-  li {
+li {
     margin-bottom: 20px;
-  }
-  .member {
+}
+
+.member {
     text-align: center;
     margin: 20px;
     display: inline-block;
-  }
-  .member img {
+}
+
+.member img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-  }
+}
 
-  .menu-toggle {
+.menu-toggle {
     display: none;
     cursor: pointer;
     color: #fff;
     background-color: #3498db;
     text-align: center;
     padding: 15px;
-  }
-  
-  #menu-list {
+}
+
+#menu-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     display: inline;
     margin: 10px;
-  }
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     .menu-toggle {
-      display: block;
+        display: block;
     }
-  
     nav ul {
-      display: none;
-      background-color: #3498db;
+        display: none;
+        background-color: #3498db;
     }
-  
     nav li {
-      display: block;
-      text-align: center;
-      margin: 10px;
+        display: block;
+        text-align: center;
+        margin: 10px;
     }
-  }
+}
