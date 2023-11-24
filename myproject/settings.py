@@ -92,7 +92,8 @@ DATABASES = {
     }
 }
 
-CSRF_TRUSTED_ORIGINS = ['https://projectnmcnpm.sondt210750.repl.co','https://serval-main-lizard.ngrok-free.app',]
+CSRF_TRUSTED_ORIGINS = ['https://projectnmcnpm.sondt210750.repl.co','https://serval-main-lizard.ngrok-free.app','https://33ac-2405-4802-1cdd-85d0-d99d-ec56-4ae6-952d.ngrok-free.app']
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {

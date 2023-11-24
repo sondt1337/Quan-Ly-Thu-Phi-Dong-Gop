@@ -126,7 +126,7 @@ nav li {
     color: white !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
-    
+
 }
 
 .custom-a:hover {
@@ -173,4 +173,16 @@ nav li {
 
 #footer {
     background-color: #4682B4;
+}
+
+.canbo {
+    display: inline-block;
+    width: 33%;
+    padding-left: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.address {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
