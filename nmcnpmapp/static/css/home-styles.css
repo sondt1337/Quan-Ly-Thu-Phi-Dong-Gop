@@ -90,13 +90,72 @@ nav li {
     .menu-toggle {
         display: block;
     }
+
     nav ul {
         display: none;
         background-color: #3498db;
     }
+
     nav li {
         display: block;
         text-align: center;
         margin: 10px;
     }
+}
+
+.custom-nav {
+    width: fit-content !important;
+    margin: 0 auto -15px auto !important;
+    background-color: #4682B4 !important;
+}
+
+.custom-a {
+    font-size: larger !important;
+    color: white !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.custom-a:hover {
+    color: red !important;
+}
+
+.image-header {
+    z-index: 1;
+}
+
+.div-header1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+}
+
+.UBND {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.CDV {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.div-header2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.signin {
+    margin-top: 80px;
+}
+
+#footer {
+    background-color: #4682B4;
 }
