@@ -57,6 +57,9 @@ def about(request):
 
 def contact(request):
     return render(request, 'myapp/contact.html')
+
+def notification(request):
+    return render(request, 'myapp/notification.html')
     
 @login_required
 def service(request):

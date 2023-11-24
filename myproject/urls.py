@@ -14,4 +14,5 @@ urlpatterns = [
     path("about/", views.about, name="about"),
     path("service/", views.service, name="service"),
     path("wait/", views.wait, name="wait"),
+    path("notification/", views.notification, name="notification"),
 ]

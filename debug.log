@@ -3335,3 +3335,23 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'static'. Did you forget to register or load this tag?
 Not Found: /favicon.ico
 Not Found: /passreceive
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
