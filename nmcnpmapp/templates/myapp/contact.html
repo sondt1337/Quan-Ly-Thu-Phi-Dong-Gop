@@ -23,22 +23,14 @@
   </style>
 </head>
 
-<body style="background-color: #4682B4;">
+<body>
   <header>
-    <img class="image-header" src="{% static 'img/background.png' %}" alt="abc">
-    <div class="div-header1">
+    <img class="image-header" src="{% static 'img/background.png' %}" alt="background">
+    <div class="div-header">
       <p class="UBND">UBND PHƯỜNG LA KHÊ - TỔ
         DÂN PHỐ SỐ 7</p>
       <p class="CDV">CỔNG DỊCH VỤ QUẢN LÝ THU PHÍ,
         ĐÓNG GÓP</p>
-    </div>
-    <div class="div-header2">
-      <button class="signin">
-        <a href="/login">Đăng nhập</a>
-      </button>
-      <button class="signup">
-        <a href="/signup">Đăng ký</a>
-      </button>
     </div>
   </header>
   <nav class="navbar navbar-expand-lg navbar-light custom-nav">
@@ -47,15 +39,24 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active custom-a" href="/hompage">Trang chủ <span
-            class="sr-only">(current)</span></a>
+      <div class="custom-div1"></div>
+      <div class="custom-div1"></div>
+      <div class="navbar-nav" style="width: 40%;">
+        <a class="nav-item nav-link active custom-a" href="/">Trang chủ <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link active custom-a" href="/service">Dịch vụ</a>
         <a class="nav-item nav-link active custom-a" href="/about">Giới thiệu</a>
         <a class="nav-item nav-link active custom-a" href="/contact">Liên hệ</a>
         <a class="nav-item nav-link active custom-a" href="/logout">Thông báo</a>
       </div>
-    </div>
+      <div class="custom-div2"></div>
+      <div class="custom-div3">
+        <button class="signin">
+          <a href="/login">Đăng nhập</a>
+        </button>
+        <button class="signup">
+          <a href="/signup">Đăng ký</a>
+        </button>
+      </div>
   </nav>
   <main>
     <section>

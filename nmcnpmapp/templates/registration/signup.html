@@ -19,22 +19,14 @@
     crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color: #4682B4;">
+<body>
   <header>
-    <img class="image-header" src="{% static 'img/background.png' %}" alt="abc">
-    <div class="div-header1">
+    <img class="image-header" src="{% static 'img/background.png' %}" alt="background">
+    <div class="div-header">
       <p class="UBND">UBND PHƯỜNG LA KHÊ - TỔ
         DÂN PHỐ SỐ 7</p>
       <p class="CDV">CỔNG DỊCH VỤ QUẢN LÝ THU PHÍ,
         ĐÓNG GÓP</p>
-    </div>
-    <div class="div-header2">
-      <button class="signin">
-        <a href="/login">Đăng nhập</a>
-      </button>
-      <button class="signup">
-        <a href="/login">Đăng ký</a>
-      </button>
     </div>
   </header>
   <nav class="navbar navbar-expand-lg navbar-light custom-nav">
@@ -42,52 +34,73 @@
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active custom-a" href="/">Trang chủ <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active custom-a" href="/service">Dịch vụ</a>
-        <a class="nav-item nav-link active custom-a" href="/about">Giới thiệu</a>
-        <a class="nav-item nav-link active custom-a" href="/contact">Liên hệ</a>
-        <a class="nav-item nav-link active custom-a" href="/wait">Thông báo</a>
-      </div>
+    <div class="custom-div"></div>
+    <div class="custom-div1"></div>
+    <div class="custom-div1"></div>
+    <div class="navbar-nav" style="width: 40%;">
+      <a class="nav-item nav-link active custom-a" href="/">Trang chủ <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active custom-a" href="/service">Dịch vụ</a>
+      <a class="nav-item nav-link active custom-a" href="/about">Giới thiệu</a>
+      <a class="nav-item nav-link active custom-a" href="/contact">Liên hệ</a>
+      <a class="nav-item nav-link active custom-a" href="/logout">Thông báo</a>
+    </div>
+    <div class="custom-div2"></div>
+    <div class="custom-div3">
+      <button class="signin">
+        <a href="/login">Đăng nhập</a>
+      </button>
+      <button class="signup">
+        <a href="/signup">Đăng ký</a>
+      </button>
     </div>
   </nav>
-  <main class="container my-4">
+  <main class="container my-4" style="width: 40%;">
     <section>
-      <h3>Vui lòng đăng ký tài khoản để sử dụng</h3>
+      <h3 style="text-align: center;">Vui lòng đăng ký tài khoản để sử dụng</h3>
       <div class="container">
         <form class="form-signup" method="post">
           {% csrf_token %}
           <div class="form-group">
-            <label for="username">Tài khoản</label>
-            <input type="text" class="form-control" id="username" name="username" placeholder="Username của bạn" />
+            <label for="username" style="margin-top: 10px;">Họ và tên <p style="color: red; display: inline;">*</p>
+              </label>
+            <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Ex: Nguyễn Văn A" />
           </div>
           <div class="form-group">
-            <label for="first_name">Tên</label>
-            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Tên của bạn" />
+            <label for="first_name" style="margin-top: 10px;">Số CCCD/CMND <p style="color: red; display: inline;">*</p>
+              </label>
+            <input type="text" class="form-control" id="identify" name="indentify" placeholder="Ex: 0123456789" />
           </div>
           <div class="form-group">
-            <label for="last_name">Họ</label>
-            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Họ của bạn" />
+            <label for="first_name" style="margin-top: 10px;">Số điện thoại <p style="color: red; display: inline;">*
+              </p></label>
+            <input type="text" class="form-control" id="phonenumber" name="phonenumber" placeholder="Ex: 0987654321" />
           </div>
           <div class="form-group">
-            <label for="password1">Mật khẩu</label>
+            <label for="username" style="margin-top: 10px;">Tài khoản <p style="color: red; display: inline;">*</p>
+              </label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Ex: chocopie123" />
+          </div>
+          <div class="form-group">
+            <label for="password1" style="margin-top: 10px;">Mật khẩu <p style="color: red; display: inline;">*</p>
+              </label>
             <input type="password" class="form-control" id="password1" name="password1"
               placeholder="Mật khẩu của bạn" />
           </div>
           <div class="form-group">
-            <label for="password2">Nhập lại mật khẩu</label>
+            <label for="password2" style="margin-top: 10px;">Nhập lại mật khẩu <p style="color: red; display: inline;">*
+              </p></label>
             <input type="password" class="form-control" id="password2" name="password2"
               placeholder="Nhập lại mật khẩu của bạn" />
           </div>
-          <div class="form-check">
+          <div class="form-check" style="margin-top: 20px;">
             <input type="checkbox" class="form-check-input" id="dropdownCheck" />
             <label class="form-check-label" for="dropdownCheck">Nhớ tôi nhé</label>
           </div>
-          <button type="submit" class="btn btn-primary">Đăng ký</button>
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 15px;">Đăng ký</button>
         </form>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/login">Đã có tài khoản rùi á? Đăng nhập nhaa</a>
+        <button style="background-color: yellow; width: 15%; margin-top: 15px; margin-bottom: 15px; margin-left: 85%;">
+          <a href="/login">Đăng nhập</a>
+        </button>
       </div>
     </section>
   </main>

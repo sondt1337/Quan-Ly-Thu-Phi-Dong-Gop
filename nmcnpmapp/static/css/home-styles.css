@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #674f4f;
+    background-image: url('') !important;
     margin: 0;
     padding: 0;
 }
@@ -104,16 +104,29 @@ nav li {
 }
 
 .custom-nav {
-    width: fit-content !important;
     margin: 0 auto -15px auto !important;
     background-color: #4682B4 !important;
 }
 
+.custom-div1 {
+    width: 15%;
+}
+
+.custom-div2 {
+    width: 10%;
+}
+
+.custom-div3 {
+    width: 20%;
+}
+
 .custom-a {
+    width: 20%;
     font-size: larger !important;
     color: white !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
+    
 }
 
 .custom-a:hover {
@@ -122,20 +135,22 @@ nav li {
 
 .image-header {
     z-index: 1;
+    height: 150px;
+    width: 100%;
 }
 
-.div-header1 {
+.div-header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 60%;
+    width: 100%;
 }
 
 .UBND {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .CDV {
@@ -153,7 +168,7 @@ nav li {
 }
 
 .signin {
-    margin-top: 80px;
+    margin-left: 100px;
 }
 
 #footer {
