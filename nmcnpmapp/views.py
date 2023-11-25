@@ -62,7 +62,26 @@ def personal(request):
     }
 
     return render(request, 'myapp/personal.html', context)
-    
+
+@login_required
+def changepassword(request):
+    user = request.user
+    user_groups = user.groups.all()
+    group_name = user_groups[0].name if user_groups else None
+    context = {
+        'username': user.username,
+        'first_name': user.first_name,
+        'last_name': user.last_name,
+        'email': user.email,
+        'group_name': group_name,
+    }
+
+    return render(request, 'myapp/changepassword.html', context)
+
+@login_required
+def password_change_done(request):
+    return render(request, 'myapp/homepage.html')
+
 @login_required
 def service(request):
     contributing_users = CustomUser.objects.filter(donggop__gt=0)
