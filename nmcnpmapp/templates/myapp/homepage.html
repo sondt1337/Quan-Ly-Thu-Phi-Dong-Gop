@@ -28,33 +28,10 @@
       text-align: center;
     }
 
-    .present {
-      width: fit-content;
-      margin: 30px 100px;
-    }
-
-    h4 {
-      font-size: 25px;
-      font-style: italic;
-      font-family: sans-serif;
-      opacity: 0.5;
+    p {
       text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .content {
-      text-align: justify;
-      line-height: 1.5;
+      font-size: larger;
       font-family: 'Courier New', Courier, monospace;
-    }
-
-    .images {
-      width: fit-content;
-      margin: 25px auto 0 auto;
-    }
-
-    h6 {
-      margin-top: 15px;
     }
   </style>
 </head>
@@ -69,7 +46,7 @@
         ĐÓNG GÓP</p>
     </div>
   </header>
-  <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+  <nav class="navbar navbar-expand-lg custom-nav">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -78,39 +55,38 @@
       <div class="custom-div1"></div>
       <div class="custom-div1"></div>
       <div class="navbar-nav" style="width: 40%;">
-        <a class="nav-item nav-link active custom-a" href="/">Trang chủ <span
-            class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active custom-a" href="/">Trang chủ <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link active custom-a" href="/service">Dịch vụ</a>
         <a class="nav-item nav-link active custom-a" href="/about">Giới thiệu</a>
         <a class="nav-item nav-link active custom-a" href="/contact">Liên hệ</a>
         <a class="nav-item nav-link active custom-a" href="/notification">Thông báo</a>
       </div>
-    <div class="custom-div2"></div>
-    <div class="custom-div3">
-      <button class="signin">
-        <a href="/login">Đăng nhập</a>
-      </button>
-      <button class="signup">
-        <a href="/signup">Đăng ký</a>
-      </button>
+      <div class="custom-div2"></div>
+      <div class="custom-div3">
+        <button class="user">Tran Ngoc Bao</button>
+        <ul class="sub-user">
+          <li><a href="/changepassword">Đổi mật khẩu</a></li>
+          <li><a href="/homepage">Hồ sơ</a></li>
+          <li><a href="/logout">Đăng xuất</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div></div>
-</nav>
-<main>
-  <section>
-    <h3>
-      Chào mừng đến với Trang chủ của Tổ dân phố 7 phường La Khê
-    </h3>
-    <p>Thông tin cá nhân</p>
-    <p>Tên đăng nhập: <b>{{username}}</b></p>
-    <p>Số hộ khẩu: <b>{{group_name}}</b></p>
-    <p>Cư dân: <b>{{ last_name }} {{ first_name }} </b></p>
-    <p>Email: <b>{{email}}</b></p>
+    <div></div>
+  </nav>
+  <main>
+    <section>
+      <h3 style="margin-bottom: 20px;">
+        Chào mừng đến với Trang chủ của Tổ dân phố 7 phường La Khê
+      </h3>
+      <p class="content" style="font-size: xx-large;">Thông tin cá nhân</p>
+      <p class="content">Tên đăng nhập: <b>{{username}}</b></p>
+      <p class="content">Số hộ khẩu: <b>{{group_name}}</b></p>
+      <p class="content">Cư dân: <b>{{ last_name }} {{ first_name }} </b></p>
+      <p class="content">Email: <b>{{email}}</b></p>
 
-  </section>
-</main>
-<div id="footer">&copy; 2023 Nhóm 3 - Nhập môn Công nghệ phần mềm.</div>
+    </section>
+  </main>
+  <div id="footer">&copy; 2023 Nhóm 3 - Nhập môn Công nghệ phần mềm.</div>
 </body>
 
 </html>
