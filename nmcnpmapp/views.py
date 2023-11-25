@@ -36,8 +36,20 @@ class SignUpView(generic.CreateView):
     success_url = reverse_lazy("login")
     template_name = "registration/signup.html"
 
-@login_required
 def homepage(request):
+    return render(request, 'myapp/homepage.html')
+
+def about(request):
+    return render(request, 'myapp/about.html')
+
+def contact(request):
+    return render(request, 'myapp/contact.html')
+
+def notification(request):
+    return render(request, 'myapp/notification.html')
+
+@login_required
+def personal(request):
     user = request.user
     user_groups = user.groups.all()
     group_name = user_groups[0].name if user_groups else None
@@ -49,17 +61,7 @@ def homepage(request):
         'group_name': group_name,
     }
 
-    return render(request, 'myapp/homepage.html', context)
-
-
-def about(request):
-    return render(request, 'myapp/about.html')
-
-def contact(request):
-    return render(request, 'myapp/contact.html')
-
-def notification(request):
-    return render(request, 'myapp/notification.html')
+    return render(request, 'myapp/personal.html', context)
     
 @login_required
 def service(request):

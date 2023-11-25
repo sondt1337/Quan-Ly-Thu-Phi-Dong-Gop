@@ -85,35 +85,19 @@
     </nav>
     <main>
       <section>
-        <h3 style="text-align: center;">Chào mừng đến với Trang chủ của Tổ dân phố 7 phường La Khê</h3>
-      </section>
-    </main>
-    <main style="background-color: antiquewhite;">
-      <section>
-        <h3 style="margin-left: 25px;">Tin tức <img src="{% static 'icon/announcement.svg' %}" alt="news" style="width: 30px; padding-bottom: 5px;" /></h3>
-        <div style="display: flex; margin-left: 25px;">
-          <div class="news">
-            <img src="{% static 'img/phamquanghuy.jpg' %}" alt="news1" style="margin-bottom: 20px; border-radius: 10px;" />
-            <a class="title" href="https://thanhnien.vn/csgt-tphcm-tong-kiem-tra-nong-do-con-uong-nhieu-qua-khong-nho-gi-het-185231125023054028.htm">Nam thanh niên đi xe máy tông chết chó tiền tỉ của nhà hàng xóm khu 1</a>
-          </div>
-          <div class="news">
-            <img src="{% static 'img/phamquanghuy.jpg' %}" alt="news1" style="margin-bottom: 20px; border-radius: 10px;" />
-            <a class="title" href="https://thanhnien.vn/csgt-tphcm-tong-kiem-tra-nong-do-con-uong-nhieu-qua-khong-nho-gi-het-185231125023054028.htm">Nam thanh niên đi xe máy tông chết chó tiền tỉ của nhà hàng xóm khu 1</a>
-          </div>
-          <div class="news">
-            <img src="{% static 'img/phamquanghuy.jpg' %}" alt="news1" style="margin-bottom: 20px; border-radius: 10px;" />
-            <a class="title" href="https://thanhnien.vn/csgt-tphcm-tong-kiem-tra-nong-do-con-uong-nhieu-qua-khong-nho-gi-het-185231125023054028.htm">Nam thanh niên đi xe máy tông chết chó tiền tỉ của nhà hàng xóm khu 1</a>
-          </div>
-          <div class="news">
-            <img src="{% static 'img/phamquanghuy.jpg' %}" alt="news1" style="margin-bottom: 20px; border-radius: 10px;" />
-            <a class="title" href="https://thanhnien.vn/csgt-tphcm-tong-kiem-tra-nong-do-con-uong-nhieu-qua-khong-nho-gi-het-185231125023054028.htm">Nam thanh niên đi xe máy tông chết chó tiền tỉ của nhà hàng xóm khu 1</a>
-          </div>
-          <div class="news">
-            <img src="{% static 'img/phamquanghuy.jpg' %}" alt="news1" style="margin-bottom: 20px; border-radius: 10px;" />
-            <a class="title" href="https://thanhnien.vn/csgt-tphcm-tong-kiem-tra-nong-do-con-uong-nhieu-qua-khong-nho-gi-het-185231125023054028.htm">Nam thanh niên đi xe máy tông chết chó tiền tỉ của nhà hàng xóm khu 1</a>
-          </div>
-          <div style="height: 50px; float: left;"></div>
-        </div>
+        <p class="content" style="font-size: xx-large;">Thông tin cá nhân</p>
+        <p class="content">
+          Tên đăng nhập: <b>{{ username }}</b>
+        </p>
+        <p class="content">
+          Số hộ khẩu: <b>{{ group_name }}</b>
+        </p>
+        <p class="content">
+          Cư dân: <b>{{ last_name }} {{ first_name }}</b>
+        </p>
+        <p class="content">
+          Email: <b>{{ email }}</b>
+        </p>
       </section>
     </main>
     <div id="footer">&copy; 2023 Nhóm 3 - Nhập môn Công nghệ phần mềm.</div>

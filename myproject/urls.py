@@ -15,4 +15,5 @@ urlpatterns = [
     path("service/", views.service, name="service"),
     path("wait/", views.wait, name="wait"),
     path("notification/", views.notification, name="notification"),
+    path("personal/", views.personal, name="personal"),
 ]
