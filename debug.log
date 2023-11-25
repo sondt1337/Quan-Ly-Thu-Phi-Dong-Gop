@@ -3362,5 +3362,6 @@ Not Found: /favicon.ico
 Not Found: /changepassword
 Not Found: /homepage
 Not Found: /homepage
-Not Found: /{% static 'icon/agenda.svg'}
-Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
