@@ -220,3 +220,16 @@ nav li {
 .custom-div3:hover .sub-user {
     display: block;
 }
+
+.news {
+    width: 20% !important;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
