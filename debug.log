@@ -3365,3 +3365,7 @@ Not Found: /homepage
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - https://428c-2405-4802-1cdd-85d0-a74a-15c0-a130-c293.ngrok-free.app does not match any trusted origins.): /login/
+Forbidden (Origin checking failed - https://428c-2405-4802-1cdd-85d0-a74a-15c0-a130-c293.ngrok-free.app does not match any trusted origins.): /login/
+Not Found: /favicon.ico
