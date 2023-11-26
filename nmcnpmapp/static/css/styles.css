@@ -3,7 +3,6 @@ h3 {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 #service1,
@@ -40,8 +39,6 @@ h4 {
     line-height: 1.5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    font-style: italic;
-    opacity: 0.5;
 }
 
 .images {
@@ -54,8 +51,7 @@ h6 {
 }
 
 p {
-    text-align: center;
-    font-size: larger;
+    font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -74,8 +70,7 @@ p {
 
 .notify {
     border: #4682b4 1px solid;
-    width: 40%;
-    margin: 10px auto;
+    margin-top: 10px;
     padding-top: 10px;
     padding-left: 20px;
     border-radius: 10px;
