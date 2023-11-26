@@ -34,65 +34,60 @@
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="custom-div"></div>
-    <div class="custom-div1"></div>
-    <div class="custom-div1"></div>
-    <div class="navbar-nav" style="width: 40%;">
-      <a class="nav-item nav-link active custom-a" href="/">Trang chủ <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link active custom-a" href="/service">Dịch vụ</a>
-      <a class="nav-item nav-link active custom-a" href="/about">Giới thiệu</a>
-      <a class="nav-item nav-link active custom-a" href="/contact">Liên hệ</a>
-      <a class="nav-item nav-link active custom-a" href="/notification">Thông báo</a>
-    </div>
-    <div class="custom-div2"></div>
-    <div class="custom-div3">
-      <button class="login">
-        <a href="/login">Đăng nhập</a>
-      </button>
-    </div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="custom-div1"></div>
+      <div class="custom-div1"></div>
+      <div class="navbar-nav" style="width: 40%;">
+        <a class="nav-item nav-link active custom-a" href="/">Trang chủ <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active custom-a" href="/service">Dịch vụ</a>
+        <a class="nav-item nav-link active custom-a" href="/about">Giới thiệu</a>
+        <a class="nav-item nav-link active custom-a" href="/contact">Liên hệ</a>
+        <a class="nav-item nav-link active custom-a" href="/notification">Thông báo</a>
+      </div>
+      <div class="custom-div2"></div>
+      <div class="custom-div3">
+        <button class="login">
+          <a href="/login">Đăng nhập</a>
+        </button>
+      </div>
   </nav>
   <main class="container my-4" style="width: 30%;">
     <section>
-      <h3 style="text-align: center;">Vui lòng đăng ký tài khoản để sử dụng</h3>
+      <h3 style="text-align: center;">Đăng ký tài khoản</h3>
       <div class="container">
         <form class="form-signup" method="post">
           {% csrf_token %}
           <div class="form-group">
-            <label for="username" style="margin-top: 10px;">Họ và tên <p style="color: red; display: inline;">*</p>
-            </label>
-            <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Ex: Nguyễn Văn A" />
+            <label for="username">Tài khoản</label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Username của bạn">
           </div>
           <div class="form-group">
-            <label for="first_name" style="margin-top: 10px;">Số CCCD/CMND <p style="color: red; display: inline;">*</p>
-            </label>
-            <input type="text" class="form-control" id="identify" name="indentify" placeholder="Ex: 0123456789" />
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="Email của bạn">
           </div>
           <div class="form-group">
-            <label for="first_name" style="margin-top: 10px;">Số điện thoại <p style="color: red; display: inline;">*
-              </p></label>
-            <input type="text" class="form-control" id="phonenumber" name="phonenumber" placeholder="Ex: 0987654321" />
+            <label for="first_name">Tên</label>
+            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Tên của bạn">
           </div>
           <div class="form-group">
-            <label for="username" style="margin-top: 10px;">Tài khoản <p style="color: red; display: inline;">*</p>
-            </label>
-            <input type="text" class="form-control" id="username" name="username" placeholder="Ex: chocopie123" />
+            <label for="last_name">Họ</label>
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Họ của bạn">
           </div>
           <div class="form-group">
-            <label for="password1" style="margin-top: 10px;">Mật khẩu <p style="color: red; display: inline;">*</p>
-            </label>
-            <input type="password" class="form-control" id="password1" name="password1"
-              placeholder="Mật khẩu của bạn" />
+            <label for="password1">Mật khẩu</label>
+            <input type="password" class="form-control" id="password1" name="password1" placeholder="Mật khẩu của bạn">
           </div>
           <div class="form-group">
-            <label for="password2" style="margin-top: 10px;">Nhập lại mật khẩu <p style="color: red; display: inline;">*
-              </p></label>
-            <input type="password" class="form-control" id="password2" name="password2"
-              placeholder="Nhập lại mật khẩu của bạn" />
+            <label for="password2">Nhập lại mật khẩu</label>
+            <input type="password" class="form-control" id="password2" name="password2" placeholder="Nhập lại mật khẩu của bạn">
+          </div>
+          <div class="form-check" style="margin-top: 20px;">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck" />
+            <label class="form-check-label" for="dropdownCheck">Nhớ tôi</label>
           </div>
           <button type="submit" class="btn btn-primary"
-            style="margin: 20px 0 0 70%; width: 30%; border-radius: 10px; background-color: #3F5BBC;">Đăng ký</button>
+            style="margin: -50px 0 0 70%; width: 30%; border-radius: 10px; background-color: #3F5BBC;">Đăng ký</button>
         </form>
-        <div style="height: 10px;"></div>
       </div>
     </section>
   </main>
