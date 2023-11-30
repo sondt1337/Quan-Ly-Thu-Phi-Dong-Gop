@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static 'css/home-styles.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/responsive-mobile.css' %}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -57,37 +58,34 @@
       <div class="container">
         <form class="form-signup" method="post">
           {% csrf_token %}
-          <div class="form-group">
-            <label for="username">Tài khoản</label>
+          <div class="form-group" style="margin-top: 20px;">
+            <label for="username">Tài khoản <p style="color: red; display: inline;">*</p></label>
             <input type="text" class="form-control" id="username" name="username" placeholder="Username của bạn">
           </div>
-          <div class="form-group">
-            <label for="email">Email</label>
+          <div class="form-group" style="margin-top: 20px;">
+            <label for="email">Email <p style="color: red; display: inline;">*</p></label>
             <input type="text" class="form-control" id="email" name="email" placeholder="Email của bạn">
           </div>
-          <div class="form-group">
-            <label for="first_name">Tên</label>
+          <div class="form-group" style="margin-top: 20px;">
+            <label for="first_name">Tên <p style="color: red; display: inline;">*</p></label>
             <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Tên của bạn">
           </div>
-          <div class="form-group">
-            <label for="last_name">Họ</label>
+          <div class="form-group" style="margin-top: 20px;">
+            <label for="last_name">Họ <p style="color: red; display: inline;">*</p></label>
             <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Họ của bạn">
           </div>
-          <div class="form-group">
-            <label for="password1">Mật khẩu</label>
+          <div class="form-group" style="margin-top: 20px;">
+            <label for="password1">Mật khẩu <p style="color: red; display: inline;">*</p></label>
             <input type="password" class="form-control" id="password1" name="password1" placeholder="Mật khẩu của bạn">
           </div>
-          <div class="form-group">
-            <label for="password2">Nhập lại mật khẩu</label>
+          <div class="form-group" style="margin-top: 20px;">
+            <label for="password2">Nhập lại mật khẩu <p style="color: red; display: inline;">*</p></label>
             <input type="password" class="form-control" id="password2" name="password2" placeholder="Nhập lại mật khẩu của bạn">
           </div>
-          <div class="form-check" style="margin-top: 20px;">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck" />
-            <label class="form-check-label" for="dropdownCheck">Nhớ tôi</label>
-          </div>
           <button type="submit" class="btn btn-primary"
-            style="margin: -50px 0 0 70%; width: 30%; border-radius: 10px; background-color: #3F5BBC;">Đăng ký</button>
+            style="margin: 10px 0 0 70%; width: 30%; border-radius: 10px; background-color: #3F5BBC;">Đăng ký</button>
         </form>
+        <div style="height: 20px;"></div>
       </div>
     </section>
   </main>

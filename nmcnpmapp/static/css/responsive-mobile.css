@@ -1,0 +1,81 @@
+@media (max-width: 450px) {
+    .UBND, .CDV {
+        font-size: 15px;
+    }
+
+    .image-header {
+        height: 110px;
+    }
+
+    main {
+        margin: 0;
+        margin-bottom: 25px;
+        width: 100% !important;
+    }
+
+    h3 {
+        font-size: 22px !important;
+        margin-left: 0 !important;
+    }
+
+    h4 {
+        font-size: 20px !important; 
+    }
+
+    b {
+        font-size: 17px !important;
+    }
+
+    .present {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .content, .address, p {
+        font-size: 15px;
+    }
+
+    .images {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .col-md-2 {
+        max-width: 100% !important;
+        text-align: center;
+    }
+
+    #service1, #service2, #service3 {
+        height: 70px;
+        font-size: 17px;
+        padding-right: 10px;
+    }
+
+    #footer {
+        font-size: 15px;
+    }
+
+    .canbo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .notify a {
+        font-size: medium;
+    }
+
+    section>div {
+        margin-left: 0 !important;
+        width: 100%;
+        display: block !important;
+    }
+
+    .news {
+        width: 100% !important;
+    }
+
+    .btn-primary {
+        width: 40% !important;
+        margin-left: 60% !important;
+    }
+}
