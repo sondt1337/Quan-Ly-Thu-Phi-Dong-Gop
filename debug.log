@@ -3783,3 +3783,712 @@ Not Found: /favicon.ico
 Not Found: /passreceive
 Not Found: /passreceive
 Not Found: /passreceive
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 230, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 230, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 230, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 40, in homepage
+    return render(request, 'myapp/homepage.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.kichhoat
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin/statistics
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/nmcnpmapp/customuser/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.sukien
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 230, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.sukien
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.sukien
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 40, in homepage
+    return render(request, 'myapp/homepage.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.sukien
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: nmcnpmapp_customuser.sukien
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 230, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: nmcnpmapp_customuser.sukien
+Watching for file changes with StatReloader
+Not Found: /admin/statistics
+Not Found: /admin/statistics
+Not Found: /admin/statistics
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader

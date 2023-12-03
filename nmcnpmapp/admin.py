@@ -5,10 +5,10 @@ from .models import CustomUser
 
 class CustomUserAdmin(UserAdmin):
     model = CustomUser
-    list_display = ('username', 'email', 'is_approved', 'name','dongphi','donggop')
-    list_filter = ('group','is_approved','dongphi','donggop')  
+    list_display = ('username', 'email', 'is_approved','dongphi','donggop', 'sukien')
+    list_filter = ('group','is_approved','dongphi','donggop', 'sukien')  
     fieldsets = UserAdmin.fieldsets + (
-        (None, {'fields': ('is_approved','dongphi', 'donggop')}),  
+        (None, {'fields': ('is_approved','dongphi', 'donggop', 'sukien')}),  
     )
 
 

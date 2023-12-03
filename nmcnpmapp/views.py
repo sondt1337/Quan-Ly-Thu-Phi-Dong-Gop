@@ -18,7 +18,7 @@ def login_view(request):
         form = CustomAuthenticationForm(data=request.POST)
         if form.is_valid():
             user = form.get_user()
-            if user.is_approved:
+            if user.kichhoat:
                 login(request, user)
                 return redirect('homepage') 
             else:
@@ -92,6 +92,7 @@ def service(request):
             'first_name': user.first_name,
             'donggop': user.donggop,
             'group': user.group,
+            'sukien': user.sukien,
         }
         for user in contributing_users
     ]
@@ -103,7 +104,7 @@ def wait(request):
     form = CustomAuthenticationForm(data=request.POST)
     if form.is_valid():
         user = form.get_user()
-        if user.is_approved:
+        if user.kichhoat:
             login(request, user)
             return redirect('homepage')
         else:

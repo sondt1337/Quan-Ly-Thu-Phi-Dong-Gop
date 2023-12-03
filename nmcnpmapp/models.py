@@ -10,6 +10,7 @@ class CustomUser(AbstractUser):
     name = models.CharField(max_length=100)
     dongphi = models.BooleanField(default=False)
     donggop = models.PositiveSmallIntegerField(default=0)
+    sukien = models.CharField(max_length=255, default='')
     
     def __str__(self):
         return self.username
