@@ -3784,6 +3784,7 @@ Not Found: /passreceive
 Not Found: /passreceive
 Not Found: /passreceive
 Watching for file changes with StatReloader
+<<<<<<< Updated upstream
 Not Found: /favicon.ico
 D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\admin.py changed, reloading.
 Watching for file changes with StatReloader
@@ -4495,3 +4496,47 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Not Found: /admin/statistics
 Not Found: /favicon.ico
+=======
+>>>>>>> Stashed changes
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bao/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 21, in login_view
+    if user.kichhoat:
+AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bao/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 21, in login_view
+    if user.kichhoat:
+AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bao/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 21, in login_view
+    if user.kichhoat:
+AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/bao/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bao/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 21, in login_view
+    if user.kichhoat:
+AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+Watching for file changes with StatReloader

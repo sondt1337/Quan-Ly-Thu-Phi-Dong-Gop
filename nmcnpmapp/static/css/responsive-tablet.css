@@ -1,0 +1,49 @@
+@media (max-width: 1300px) and (min-width: 450px) {
+    .UBND, .CDV {
+        font-size: 20px;
+    }
+
+    .image-header {
+        height: 120px;
+    }
+
+    .custom-div1 {
+        width: 10%;
+    }
+
+    .navbar-nav {
+        width: 60% !important;
+    }
+    
+    .custom-div2 {
+        width: 5%;
+    }
+    
+    .custom-div3 {
+        width: 15%;
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
+
+    section>div {
+        width: 100%;
+        display: block !important;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .news>img {
+        width: 40%;
+    }
+
+    .title {
+        width: 50%;
+        display: inline-block;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+}

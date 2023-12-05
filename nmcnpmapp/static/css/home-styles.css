@@ -86,7 +86,7 @@ nav li {
     margin: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 450px) {
     .menu-toggle {
         display: block;
     }
