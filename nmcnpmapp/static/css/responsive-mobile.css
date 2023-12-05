@@ -1,4 +1,19 @@
-@media (max-width: 450px) {
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        background-color: #3498db;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        margin: 10px;
+    }
+
     .UBND, .CDV {
         font-size: 15px;
     }

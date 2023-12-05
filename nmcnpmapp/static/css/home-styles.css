@@ -86,23 +86,6 @@ nav li {
     margin: 10px;
 }
 
-@media (max-width: 450px) {
-    .menu-toggle {
-        display: block;
-    }
-
-    nav ul {
-        display: none;
-        background-color: #3498db;
-    }
-
-    nav li {
-        display: block;
-        text-align: center;
-        margin: 10px;
-    }
-}
-
 .custom-nav {
     margin: 0 auto -15px auto !important;
     background-color: #456088 !important;
