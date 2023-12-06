@@ -1,4 +1,4 @@
-@media (max-width: 1200px) and (min-width: 768px) {
+@media (max-width: 991px) and (min-width: 600px) {
     .UBND, .CDV {
         font-size: 20px;
     }
@@ -7,20 +7,19 @@
         height: 120px;
     }
 
-    .custom-div1 {
-        width: 10%;
+    .menu-toggle {
+        display: block;
     }
 
-    .navbar-nav {
-        width: 60% !important;
+    nav ul {
+        display: none;
+        background-color: #3498db;
     }
-    
-    .custom-div2 {
-        width: 5%;
-    }
-    
-    .custom-div3 {
-        width: 15%;
+
+    nav li {
+        display: block;
+        text-align: center;
+        margin: 10px;
     }
 
     h3 {
@@ -33,17 +32,52 @@
     }
 
     .news {
+        width: 90%;
+    }
+
+    .custom-a {
+        width: 100% !important;
+        padding-left: 2px !important;
+        text-align: start;
+    }
+
+    .custom-div3 {
+        float: right;
+        width: fit-content;
+        margin-top: -217px;
+    }
+
+    main {
+        margin: 0;
+        margin-bottom: 25px;
+        width: 55% !important;
+        margin-left: 22.5%;
+        margin-right: 22.5%;
+    }
+
+    .btn-primary {
+        width: 40% !important;
+        margin-left: 60% !important;
+    }
+
+    .canbo {
         width: 100%;
+        margin-bottom: 30px;
+        padding-left: 10%;
     }
 
-    .news>img {
-        width: 40%;
+    .present {
+        width: 100%;
+        margin: 30px 0;
     }
 
-    .title {
-        width: 50%;
-        display: inline-block;
-        padding-left: 20px;
-        font-size: 25px;
+    .images {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .col-md-2 {
+        max-width: 100% !important;
+        text-align: center;
     }
 }

@@ -1,0 +1,17 @@
+@media (max-width: 1500px) and (min-width: 992px) {
+    .custom-div1 {
+        width: 10%;
+    }
+
+    .navbar-nav {
+        width: 60% !important;
+    }
+    
+    .custom-div2 {
+        width: 5%;
+    }
+    
+    .custom-div3 {
+        width: 15%;
+    }
+}
