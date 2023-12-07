@@ -4586,3 +4586,603 @@ Traceback (most recent call last):
   File "/home/bao/GitHub/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 21, in login_view
     if user.kichhoat:
 AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'tEXt' 57 25
+STREAM b'iTXt' 94 66
+STREAM b'IDAT' 172 8192
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'tEXt' 57 25
+STREAM b'iTXt' 94 66
+STREAM b'IDAT' 172 8192
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /favicon.ico
+Not Found: /article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /article_images/
+Not Found: /favicon.ico
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /favicon.ico
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /media/https:/static-images.vnncdn.net/files/publish/2023/12/7/main202211010034000041957778707-801.jpg?width=1280&s=yA6L33GilI368UDjktkeKg
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'tEXt' 57 25
+STREAM b'iTXt' 94 66
+STREAM b'IDAT' 172 8192
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/{% static 'article_images/' %}/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/https:/static-images.vnncdn.net/files/publish/2023/12/7/main202211010034000041957778707-801.jpg?width=1280&s=yA6L33GilI368UDjktkeKg
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/article_images/Screenshot
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'tEXt' 57 25
+STREAM b'iTXt' 94 66
+STREAM b'IDAT' 172 8192
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/https:/static-images.vnncdn.net/files/publish/2023/12/7/main202211010034000041957778707-801.jpg?width=1280&s=yA6L33GilI368UDjktkeKg
+Not Found: /media/{% static 'article_images/' %}/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 41, in homepage
+    return render(request, 'myapp/homepage.html', {'articles': articles})
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% media  article.image.url %' from '% media  article.image.url %'
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 41, in homepage
+    return render(request, 'myapp/homepage.html', {'articles': articles})
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% media  article.image.url %' from '% media  article.image.url %'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 41, in homepage
+    return render(request, 'myapp/homepage.html', {'articles': articles})
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% media  article.image.url %' from '% media  article.image.url %'
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /media/https:/static-images.vnncdn.net/files/publish/2023/12/7/main202211010034000041957778707-801.jpg?width=1280&s=yA6L33GilI368UDjktkeKg
+Watching for file changes with StatReloader
+Not Found: /media/{% static 'article_images/' %}/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/article_images/Screenshot_from_2023-11-04_02-00-10.png
+Not Found: /media/https:/static-images.vnncdn.net/files/publish/2023/12/7/main202211010034000041957778707-801.jpg?width=1280&s=yA6L33GilI368UDjktkeKg
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /favicon.ico
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 40, in homepage
+    latest_articles = Article.objects.order_by('-created_at')[:5]
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: content, id, image, link, title
+Not Found: /favicon.ico
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 40, in homepage
+    latest_articles = Article.objects.order_by('-created')[:5]
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: content, id, image, link, title
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 40, in homepage
+    latest_articles = Article.objects.order_by('-created')[:5]
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: content, id, image, link, title
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 40, in homepage
+    latest_articles = Article.objects.order_by('-created')[:5]
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: content, id, image, link, title
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 40, in homepage
+    latest_articles = Article.objects.order_by('-created')[:5]
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: content, id, image, link, title
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py", line 40, in homepage
+    latest_articles = Article.objects.order_by('-created')[:5]
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/home/spid3r/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: content, id, image, link, title
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 128 - value: b'Canon EOS-1D X Mark III\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 152 - value: b',\x01\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 160 - value: b',\x01\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 168 - value: b'Adobe Lightroom 9.0.0 (iOS)\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 196 - value: b'2023:12:07 17:30:18\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xd8\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /favicon.ico
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 128 - value: b'Canon EOS-1D X Mark III\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 152 - value: b',\x01\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 160 - value: b',\x01\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 168 - value: b'Adobe Lightroom 9.0.0 (iOS)\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 196 - value: b'2023:12:07 17:30:18\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xd8\x00\x00\x00'
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
+Watching for file changes with StatReloader

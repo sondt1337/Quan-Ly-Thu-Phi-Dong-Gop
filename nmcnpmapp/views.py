@@ -11,7 +11,7 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from django.contrib.auth.models import Group
 from .models import CustomUser
-
+from .models import Article
 
 def login_view(request):
     if request.method == 'POST':
@@ -37,7 +37,8 @@ class SignUpView(generic.CreateView):
     template_name = "registration/signup.html"
 
 def homepage(request):
-    return render(request, 'myapp/homepage.html')
+    articles = Article.objects.all()
+    return render(request, 'myapp/homepage.html', {'articles': articles})
 
 def about(request):
     return render(request, 'myapp/about.html')

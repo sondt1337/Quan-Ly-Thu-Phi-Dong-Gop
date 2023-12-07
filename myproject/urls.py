@@ -5,7 +5,8 @@ from django.contrib import admin
 from django.views.generic.base import TemplateView
 from django.contrib.auth.views import PasswordChangeView
 from nmcnpmapp.views import password_change_done
-
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,3 +24,6 @@ urlpatterns = [
     path('change-password/', PasswordChangeView.as_view(success_url='/change-password-done/'), name='password_change'),
     path('change-password-done/', password_change_done, name='password_change_done'),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

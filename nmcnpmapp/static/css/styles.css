@@ -5,6 +5,22 @@ h3 {
     letter-spacing: 2px;
 }
 
+.news {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling if articles exceed container width */
+}
+
+.article {
+    margin-right: 20px; /* Adjust the spacing between articles */
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 #service1,
 #service2,
 #service3 {
@@ -55,22 +71,7 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.news {
-    width: 20%;
-    display: block;
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
 
-.news>img {
-    width: 100%;
-}
-
-.title {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
-}
 
 .notify {
     border: #4682b4 1px solid;

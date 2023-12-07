@@ -28,3 +28,11 @@ class FamilyMember(models.Model):
     def __str__(self):
         return self.first_name + " " + self.last_name
     
+class Article(models.Model):
+    title = models.CharField(max_length=255)
+    content = models.TextField()
+    image = models.ImageField(upload_to='article_images/')
+    link = models.URLField()
+
+    def __str__(self):
+        return self.title
