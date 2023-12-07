@@ -5186,3 +5186,59 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /home/spid3r/Downloads/QLTPDG/Quan-Ly-Thu-Phi-Dong-Gop/nmcnpmapp/models.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 21, in login_view
+    if user.kichhoat:
+       ^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 21, in login_view
+    if user.kichhoat:
+       ^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py", line 21, in login_view
+    if user.kichhoat:
+       ^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'kichhoat'
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\nmcnpm\Quan-Ly-Thu-Phi-Dong-Gop\nmcnpmapp\models.py changed, reloading.
+Watching for file changes with StatReloader

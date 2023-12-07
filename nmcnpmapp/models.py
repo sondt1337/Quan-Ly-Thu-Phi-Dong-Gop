@@ -4,13 +4,13 @@ from django.contrib.auth.models import User
 
 class CustomUser(AbstractUser):
     is_approved = models.BooleanField(default=False)
-    first_name = models.CharField(max_length=30)
-    last_name = models.CharField(max_length=30)
+    first_name = models.CharField(max_length=255)
+    last_name = models.CharField(max_length=255)
     group = models.CharField(max_length=30)
     name = models.CharField(max_length=100)
     dongphi = models.BooleanField(default=False)
     donggop = models.PositiveSmallIntegerField(default=0)
-    sukien = models.CharField(max_length=255, default='')
+    sukien = models.CharField(max_length=255)
     
     def __str__(self):
         return self.username

@@ -18,7 +18,7 @@ def login_view(request):
         form = CustomAuthenticationForm(data=request.POST)
         if form.is_valid():
             user = form.get_user()
-            if user.kichhoat:
+            if user.is_approved:
                 login(request, user)
                 return redirect('homepage') 
             else:
@@ -105,7 +105,7 @@ def wait(request):
     form = CustomAuthenticationForm(data=request.POST)
     if form.is_valid():
         user = form.get_user()
-        if user.kichhoat:
+        if user.is_approved:
             login(request, user)
             return redirect('homepage')
         else:
