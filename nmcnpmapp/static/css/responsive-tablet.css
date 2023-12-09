@@ -1,5 +1,6 @@
 @media (max-width: 991px) and (min-width: 600px) {
-    .UBND, .CDV {
+    .UBND,
+    .CDV {
         font-size: 20px;
     }
 
@@ -44,6 +45,7 @@
     }
 
     main {
+        width: 100% !important;
         margin: 0;
         margin-bottom: 25px;
     }
@@ -52,8 +54,13 @@
         display: inline-block;
     }
 
+    .article-image {
+        margin-top: 20px;
+    }
+
     .title {
         font-size: 25px;
+        padding-left: 15px;
     }
 
     .btn-primary {
@@ -72,13 +79,47 @@
         margin: 30px 0;
     }
 
+    .col-md-2 {
+        display: inline;
+    }
+
     .images {
-        width: 100% !important;
         text-align: center;
     }
 
-    .col-md-2 {
-        max-width: 100% !important;
-        text-align: center;
+    #service1,
+    #service2,
+    #service3,
+    .notify,
+    .form-signin,
+    .form-signup,
+    .password-change-form {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .sub-user {
+        width: 20%;
+        margin: 0;
+        margin-top: 42px;
+        left: 80%;
+        padding-left: 0;
+    }
+
+    .sub-user>li>a {
+        width: 100%;
+    }
+
+    .canbo {
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 30%;
+    }
+    
+    .personal {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
