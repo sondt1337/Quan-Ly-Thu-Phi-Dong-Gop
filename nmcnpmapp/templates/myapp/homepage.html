@@ -69,20 +69,20 @@
   <main style="background-color: antiquewhite;">
     <section>
       <h3 style="margin-left: 25px; margin-bottom: 20px;">Tin tức <img src="{% static 'icon/announcement.svg' %}"
-        alt="news" style="width: 30px; padding-bottom: 5px;" /></h3>
-            
+          alt="news" style="width: 30px; padding-bottom: 5px;" /></h3>
+
       <div style="display: flex; margin-left: 25px;">
         <div class="news">
           {% for article in articles %}
           <div class="news">
             <div class="article">
-                <img src="{{ article.image.url }}" alt="{{ article.title }}" class="article-image" />
-                <a class="title" href="{{ article.link }}">{{ article.title }}</a>
+              <img src="{{ article.image.url }}" alt="{{ article.title }}" class="article-image" />
+              <a class="title" href="{{ article.link }}">{{ article.title }}</a>
             </div>
+          </div>
+          {% endfor %}
         </div>
-            {% endfor %}
-        </div>
-        <div style="height: 500px; float: left;"></div>
+        <div class="sub-news"></div>
       </div>
     </section>
   </main>

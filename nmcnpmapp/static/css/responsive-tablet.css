@@ -31,10 +31,6 @@
         display: block !important;
     }
 
-    .news {
-        width: 90%;
-    }
-
     .custom-a {
         width: 100% !important;
         padding-left: 2px !important;
@@ -50,9 +46,14 @@
     main {
         margin: 0;
         margin-bottom: 25px;
-        width: 55% !important;
-        margin-left: 22.5%;
-        margin-right: 22.5%;
+    }
+
+    .news {
+        display: inline-block;
+    }
+
+    .title {
+        font-size: 25px;
     }
 
     .btn-primary {

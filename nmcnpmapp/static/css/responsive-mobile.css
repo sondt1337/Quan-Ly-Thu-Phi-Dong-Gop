@@ -86,7 +86,20 @@
     }
 
     .news {
-        width: 100% !important;
+        display: block;
+    }
+
+    .article-image {
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .sub-news {
+        height: 100px;
     }
 
     .btn-primary {

@@ -7,18 +7,33 @@ h3 {
 
 .news {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling if articles exceed container width */
+    overflow-x: auto;
+    /* Enable horizontal scrolling if articles exceed container width */
+    width: 100%;
+}
+
+.sub-news {
+    height: 500px;
+    float: left;
 }
 
 .article {
-    margin-right: 20px; /* Adjust the spacing between articles */
+    margin-right: 20px;
+    /* Adjust the spacing between articles */
 }
 
 .article-image {
     width: 100%;
-    height: auto;
+    height: 60%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.title {
+    word-spacing: 2px;
+    font-size: 20px;
+    color: black;
 }
 
 #service1,
@@ -78,6 +93,7 @@ p {
     margin-top: 10px;
     padding-top: 10px;
     padding-left: 20px;
+    padding-right: 5px;
     border-radius: 10px;
     background-color: antiquewhite;
 }
