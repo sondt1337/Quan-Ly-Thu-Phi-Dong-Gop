@@ -14,4 +14,46 @@
     .custom-div3 {
         width: 15%;
     }
+
+    .container {
+        width: 50% !important;
+    }
+
+    .form-signup,
+    .form-signin {
+        width: 160% !important;
+        margin-left: -30%;
+    }
+
+    .password-change-form {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .article-image {
+        height: 50%;
+    }
+
+    .title {
+        font-size: 17px;
+    }
+
+    .special-main {
+        width: 50%;
+    }
+
+    .sub-user {
+        width: 12%;
+        margin: 0;
+        left: 85%;
+        padding-left: 0;
+    }
+
+    .sub-user>li>a {
+        width: 100%;
+    }
+
+    .tool {
+        width: 15% !important;
+    }
 }

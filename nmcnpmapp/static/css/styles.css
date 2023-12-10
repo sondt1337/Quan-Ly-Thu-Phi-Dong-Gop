@@ -125,3 +125,7 @@ p {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.special-main {
+    width: 40% !important;
+}
