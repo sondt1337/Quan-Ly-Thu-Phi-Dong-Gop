@@ -83,91 +83,98 @@
   </nav>
   <main>
     <section>
-      <h3 style="text-align: center;">Giới thiệu về trang này</h3>
-      <h4 class="mt-4">Giới thiệu về phần mềm thu phí và đóng góp cho Tổ dân phố</h4>
-      <div class="present">
-        <p class="content">Phần mềm Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê là một giải pháp quản lý
-          hiện đại giúp tổ chức theo dõi thông tin cộng đồng và thu tiền một cách hiệu quả.</p>
-        <p class="content">Với hơn 400 hộ gia đình, sinh viên thuê trọ và các khoản đóng góp đa dạng, phần mềm này giúp
-          cán bộ kế toán lập danh sách, thu phí vệ sinh hàng năm và quản lý các đóng góp từ cộng đồng.</p>
-        <p class="content">Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình tài chính và tăng cường tính minh
-          bạch trong quản lý. Dự án này sẽ nâng cao quản lý tổ dân phố thông qua công nghệ thông tin và hiệu quả hóa quy
-          trình quản lý tài chính.</p>
-      </div>
-      <h4 class="mt-4">Các công cụ đã sử dụng</h4>
-      <div class="row images">
-        <div class="col-md-2 tool" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/django.svg' %}" alt="django" class="img-fluid rounded-circle mb-2" />
-            <h6>Django</h6>
-          </div>
+      <div class="div-parent" style="display: flex; margin-top: 3%;">
+        <div class="div-child1" style="width: 45%; height: 100%; margin-left: 5%; margin-right: 5%;">
+          <h5 style="margin-bottom: 20px; text-align: center;"><strong>Giới thiệu về phần mềm thu phí và đóng góp cho Tổ
+              dân phố</strong>
+          </h5>
+          <p>Phần mềm Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê là một giải pháp quản
+            lý
+            hiện đại giúp tổ chức theo dõi thông tin cộng đồng và thu tiền một cách hiệu quả.</p>
+          <p>Với hơn 400 hộ gia đình, sinh viên thuê trọ và các khoản đóng góp đa dạng, phần mềm này
+            giúp
+            cán bộ kế toán lập danh sách, thu phí vệ sinh hàng năm và quản lý các đóng góp từ cộng đồng.</p>
+          <p>Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình tài chính và tăng cường tính
+            minh
+            bạch trong quản lý. Dự án này sẽ nâng cao quản lý tổ dân phố thông qua công nghệ thông tin và hiệu quả hóa
+            quy
+            trình quản lý tài chính.</p>
         </div>
-        <div class="col-md-2 tool" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/sql.svg' %}" alt="sqlite" class="img-fluid rounded-circle mb-2" />
-            <h6>SQLite</h6>
-          </div>
-        </div>
-        <div class="col-md-2 tool" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/html.svg' %}" alt="html" class="img-fluid rounded-circle mb-2" />
-            <h6>HTML</h6>
-          </div>
-        </div>
-        <div class="col-md-2 tool" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/css.svg' %}" alt="css" class="img-fluid rounded-circle mb-2" />
-            <h6>CSS</h6>
-          </div>
-        </div>
-        <div class="col-md-2 tool" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/js.svg' %}" alt="js" class="img-fluid rounded-circle mb-2" />
-            <h6>Javascript</h6>
-          </div>
-        </div>
-        <div class="col-md-2 tool" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/bootstrap.svg' %}" alt="bootstrap" class="img-fluid rounded-circle mb-2" />
-            <h6>Bootstrap</h6>
-          </div>
+        <div class="div-child2" style="width: 40%; margin-left: 5%;">
+          <img src="{% static 'img/service-image.png' %}" alt="service-image" style="width: 70%; margin-left: 15%;">
         </div>
       </div>
-      <h4 class="mt-4">Đội ngũ thực hiện sản phẩm</h4>
-      <div class="row images">
-        <div class="col-md-2" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/dinhthaison.png' %}" alt="Member 1" class="img-fluid rounded-circle mb-2" />
-            <h6>Đinh Thái Sơn</h6>
-            <p>Developer/Backend</p>
+      <div class="div-parent" style="display: flex; margin-top: 3%;">
+        <div class="div-child1" style="width: 45%; height: 100%; margin-left: 5%; margin-right: 5%;">
+          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
+            <div style="width: 33%;">
+              <img src="{% static 'img/django.svg' %}" alt="django" style="margin-bottom: 10px;">
+              <p>Django</p>
+            </div>
+            <div style="width: 33%;">
+              <img src="{% static 'img/sql.svg' %}" alt="sqlite" style="margin-bottom: 10px;">
+              <p>Sqlite</p>
+            </div>
+            <div style="width: 33%;">
+              <img src="{% static 'img/html.svg' %}" alt="html" style="margin-bottom: 10px;">
+              <p>HTML</p>
+            </div>
+          </div>
+          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
+            <div style="width: 33%;">
+              <img src="{% static 'img/css.svg' %}" alt="css" style="margin-bottom: 10px;">
+              <p>CSS</p>
+            </div>
+            <div style="width: 33%;">
+              <img src="{% static 'img/js.svg' %}" alt="javascript" style="margin-bottom: 10px;">
+              <p>Javascript</p>
+            </div>
+            <div style="width: 33%;">
+              <img src="{% static 'img/bootstrap.svg' %}" alt="bootstrap" style="margin-bottom: 10px;">
+              <p>Bootstrap</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-2" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/buoivanhuy.jpg' %}" alt="Member 2" class="img-fluid rounded-circle mb-2" />
-            <h6>Bùi Văn Huy</h6>
-            <p>Designer/Frontend</p>
-          </div>
+        <div class="div-child2" style="width: 40%; margin-left: 5%;">
+          <p style="font-size: xx-large; text-align: center; margin-top: 10%; letter-spacing: 2px;"><strong>Sử dụng linh hoạt, đa dạng
+              ngôn ngữ và công nghệ</strong></p>
         </div>
-        <div class="col-md-2" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/phamquanghuy.jpg' %}" alt="Member 3" class="img-fluid rounded-circle mb-2" />
-            <h6>Phạm Quang Huy</h6>
-            <p>Developer/Database</p>
-          </div>
+      </div>
+      <div class="div-parent" style="display: flex; margin-top: 3%">
+        <div class="div-child3" style="width: 35%; height: 100%; margin-left: 5%; margin-right: 5%;">
+          <p style="font-size: xx-large; text-align: center; margin-top: 25%;  letter-spacing: 2px;"><strong>Cùng đội ngũ phát triển nhiệt
+              huyết, sáng tạo</strong></p>
         </div>
-        <div class="col-md-2" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/tranngocbao.jpg' %}" alt="Member 4" class="img-fluid rounded-circle mb-2" />
-            <h6>Trần Ngọc Bảo</h6>
-            <p>Developer/Frontend</p>
+        <div class="div-child4" style="width: 50%; margin-left: 5%;">
+          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
+            <div style="width: 33%;">
+              <img src="{% static 'img/dinhthaison.png' %}" alt="django" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
+              <p style="margin-bottom: 0;">Đinh Thái Sơn</p>
+              <p>Developer/Backend</p>
+            </div>
+            <div style="width: 33%;">
+              <img src="{% static 'img/buoivanhuy.jpg' %}" alt="sqlite" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
+              <p style="margin-bottom: 0;">Bùi Văn Huy</p>
+              <p>Designer/Frontend</p>
+            </div>
+            <div style="width: 33%;">
+              <img src="{% static 'img/phamquanghuy.jpg' %}" alt="html" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
+              <p style="margin-bottom: 0;">Phạm Quang Huy</p>
+              <p>Developer/Database</p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-2" style="max-width: 33%;">
-          <div class="member text-center">
-            <img src="{% static 'img/vuminhhien.jpg' %}" alt="Member 5" class="img-fluid rounded-circle mb-2" />
-            <h6>Vũ Minh Hiển</h6>
-            <p>Writting/Report</p>
+          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
+            <div style="width: 33%; margin-left: 17%;">
+              <img src="{% static 'img/tranngocbao.jpg' %}" alt="css" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
+              <p style="margin-bottom: 0;">Trần Ngọc Bảo</p>
+              <p>Developer/Frontend</p>
+            </div>
+            <div style="width: 33%;">
+              <img src="{% static 'img/vuminhhien.jpg' %}" alt="javascript" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
+              <p style="margin-bottom: 0;">Vũ Minh Hiển</p>
+              <p>Writing/Report</p>
+            </div>
+            </div>
           </div>
         </div>
       </div>
