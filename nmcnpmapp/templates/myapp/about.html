@@ -83,8 +83,8 @@
   </nav>
   <main>
     <section>
-      <div class="div-parent" style="display: flex; margin-top: 3%;">
-        <div class="div-child1" style="width: 45%; height: 100%; margin-left: 5%; margin-right: 5%;">
+      <div class="div-parent">
+        <div class="div-child1">
           <h5 style="margin-bottom: 20px; text-align: center;"><strong>Giới thiệu về phần mềm thu phí và đóng góp cho Tổ
               dân phố</strong>
           </h5>
@@ -100,78 +100,78 @@
             quy
             trình quản lý tài chính.</p>
         </div>
-        <div class="div-child2" style="width: 40%; margin-left: 5%;">
+        <div class="div-child2">
           <img src="{% static 'img/service-image.png' %}" alt="service-image" style="width: 70%; margin-left: 15%;">
         </div>
       </div>
-      <div class="div-parent" style="display: flex; margin-top: 3%;">
-        <div class="div-child1" style="width: 45%; height: 100%; margin-left: 5%; margin-right: 5%;">
-          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
-            <div style="width: 33%;">
-              <img src="{% static 'img/django.svg' %}" alt="django" style="margin-bottom: 10px;">
+      <div class="div-parent">
+        <div class="div-child1">
+          <div class="div-child-row">
+            <div class="div-image">
+              <img src="{% static 'img/django.svg' %}" alt="django" class="language">
               <p>Django</p>
             </div>
-            <div style="width: 33%;">
-              <img src="{% static 'img/sql.svg' %}" alt="sqlite" style="margin-bottom: 10px;">
+            <div class="div-image">
+              <img src="{% static 'img/sql.svg' %}" alt="sqlite" class="language">
               <p>Sqlite</p>
             </div>
-            <div style="width: 33%;">
-              <img src="{% static 'img/html.svg' %}" alt="html" style="margin-bottom: 10px;">
+            <div class="div-image">
+              <img src="{% static 'img/html.svg' %}" alt="html" class="language">
               <p>HTML</p>
             </div>
           </div>
-          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
-            <div style="width: 33%;">
-              <img src="{% static 'img/css.svg' %}" alt="css" style="margin-bottom: 10px;">
+          <div class="div-child-row">
+            <div class="div-image">
+              <img src="{% static 'img/css.svg' %}" alt="css" class="language">
               <p>CSS</p>
             </div>
-            <div style="width: 33%;">
-              <img src="{% static 'img/js.svg' %}" alt="javascript" style="margin-bottom: 10px;">
+            <div class="div-image">
+              <img src="{% static 'img/js.svg' %}" alt="javascript" class="language">
               <p>Javascript</p>
             </div>
-            <div style="width: 33%;">
-              <img src="{% static 'img/bootstrap.svg' %}" alt="bootstrap" style="margin-bottom: 10px;">
+            <div class="div-image">
+              <img src="{% static 'img/bootstrap.svg' %}" alt="bootstrap" class="language">
               <p>Bootstrap</p>
             </div>
           </div>
         </div>
-        <div class="div-child2" style="width: 40%; margin-left: 5%;">
+        <div class="div-child2">
           <p style="font-size: xx-large; text-align: center; margin-top: 10%; letter-spacing: 2px;"><strong>Sử dụng linh hoạt, đa dạng
               ngôn ngữ và công nghệ</strong></p>
         </div>
       </div>
-      <div class="div-parent" style="display: flex; margin-top: 3%">
+      <div class="div-parent">
         <div class="div-child3" style="width: 35%; height: 100%; margin-left: 5%; margin-right: 5%;">
           <p style="font-size: xx-large; text-align: center; margin-top: 25%;  letter-spacing: 2px;"><strong>Cùng đội ngũ phát triển nhiệt
               huyết, sáng tạo</strong></p>
         </div>
         <div class="div-child4" style="width: 50%; margin-left: 5%;">
-          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
-            <div style="width: 33%;">
-              <img src="{% static 'img/dinhthaison.png' %}" alt="django" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
-              <p style="margin-bottom: 0;">Đinh Thái Sơn</p>
+          <div class="div-child-row">
+            <div class="div-image">
+              <img src="{% static 'img/dinhthaison.png' %}" alt="django" class="avatar">
+              <p class="name">Đinh Thái Sơn</p>
               <p>Developer/Backend</p>
             </div>
-            <div style="width: 33%;">
-              <img src="{% static 'img/buoivanhuy.jpg' %}" alt="sqlite" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
-              <p style="margin-bottom: 0;">Bùi Văn Huy</p>
+            <div class="div-image">
+              <img src="{% static 'img/buoivanhuy.jpg' %}" alt="sqlite" class="avatar">
+              <p class="name">Bùi Văn Huy</p>
               <p>Designer/Frontend</p>
             </div>
-            <div style="width: 33%;">
-              <img src="{% static 'img/phamquanghuy.jpg' %}" alt="html" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
-              <p style="margin-bottom: 0;">Phạm Quang Huy</p>
+            <div class="div-image">
+              <img src="{% static 'img/phamquanghuy.jpg' %}" alt="html" class="avatar">
+              <p class="name">Phạm Quang Huy</p>
               <p>Developer/Database</p>
             </div>
           </div>
-          <div class="div-child-row" style="display: flex; text-align: center; margin-bottom: 3%;">
-            <div style="width: 33%; margin-left: 17%;">
-              <img src="{% static 'img/tranngocbao.jpg' %}" alt="css" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
-              <p style="margin-bottom: 0;">Trần Ngọc Bảo</p>
+          <div class="div-child-row">
+            <div class="div-image-special" style="width: 33%; margin-left: 17%;">
+              <img src="{% static 'img/tranngocbao.jpg' %}" alt="css" class="avatar">
+              <p class="name">Trần Ngọc Bảo</p>
               <p>Developer/Frontend</p>
             </div>
-            <div style="width: 33%;">
-              <img src="{% static 'img/vuminhhien.jpg' %}" alt="javascript" style="margin-bottom: 10px; width: 150px; height: 150px; border-radius: 50%;">
-              <p style="margin-bottom: 0;">Vũ Minh Hiển</p>
+            <div class="div-image">
+              <img src="{% static 'img/vuminhhien.jpg' %}" alt="javascript" class="avatar">
+              <p class="name">Vũ Minh Hiển</p>
               <p>Writing/Report</p>
             </div>
             </div>

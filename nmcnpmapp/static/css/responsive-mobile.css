@@ -130,4 +130,48 @@
     .sub-user>li>a {
         width: 90%;
     }
+
+    .div-child1 {
+        width: 90%;
+    }
+
+    .div-child12 {
+        width: 90%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .div-child3 {
+        width: 90% !important;
+    }
+
+    .div-child4 {
+        width: 90% !important;
+        margin-top: 10%;
+    }
+
+    .div-child-row {
+        display: block;
+    }
+
+    .div-image {
+        width: 100%;
+    }
+
+    .div-image-special {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .language {
+        width: 40%;
+    }
+
+    .div-image>p, .div-image-special>p {
+        font-size: 20px;
+    }
+
+    .div-child2>p, .div-child3>p {
+        font-size: x-large !important;
+    }
 }

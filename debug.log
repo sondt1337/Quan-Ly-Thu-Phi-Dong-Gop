@@ -5290,3 +5290,4 @@ Traceback (most recent call last):
     raise TemplateSyntaxError(
 django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% static 'img/service-image.png' %' from '% static 'img/service-image.png' %'
 Not Found: /favicon.ico
+Watching for file changes with StatReloader

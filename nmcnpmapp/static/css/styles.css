@@ -129,3 +129,45 @@ p {
 .special-main {
     width: 40% !important;
 }
+
+.div-parent {
+    display: flex;
+    margin-top: 3%;
+}
+
+.div-child1 {
+    width: 45%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.div-child2 {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.div-child-row {
+    display: flex;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.avatar {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.language {
+    margin-bottom: 10px;
+}
+
+.div-image {
+    width: 33%;
+}
+
+.name {
+    margin-bottom: 0;
+}

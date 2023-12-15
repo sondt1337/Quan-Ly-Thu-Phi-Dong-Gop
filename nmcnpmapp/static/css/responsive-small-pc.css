@@ -56,4 +56,15 @@
     .tool {
         width: 15% !important;
     }
+
+    .div-child2>img {
+        width: 90% !important;
+        height: 80%;
+        margin-left: 5% !important;
+    }
+
+    .avatar {
+        width: 125px;
+        height: 125px;
+    }
 }
