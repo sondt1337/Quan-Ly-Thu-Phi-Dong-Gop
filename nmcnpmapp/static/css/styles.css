@@ -88,7 +88,9 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+.form-control {
+    background-color: #C5C4C4;
+}
 
 .notify {
     border: #4682b4 1px solid;
