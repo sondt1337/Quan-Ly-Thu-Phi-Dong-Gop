@@ -116,29 +116,11 @@ p {
     background-color: #4682b4;
 }
 
-.canbo {
-    width: 23%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: antiquewhite;
-    padding-left: 4%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border-radius: 20px;
-}
-
-.canbo:hover {
-    background-color: aliceblue;
-}
- 
-.address {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .special-main {
     width: 40% !important;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
 
 .div-parent {
@@ -197,4 +179,23 @@ p {
     font-size: xx-large;
     margin-bottom: 20px;
     letter-spacing: 3px;
+}
+
+.div-contact {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.div-contact:hover {
+    background-color: #87A4CF;
+}
+
+.div-info {
+    margin-left: 5%;
+}
+
+.address {
+    font-size: 20px;
 }

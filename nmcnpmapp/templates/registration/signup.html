@@ -2,67 +2,66 @@
 <html>
 
 <head>
-  <title>Tổ dân phố 7 phường La Khê</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {% load static %}
-  <link rel="stylesheet" type="text/css" href="{% static 'css/home-styles.css' %}" />
-  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
-  <link rel="stylesheet" href="{% static 'css/responsive-mobile.css' %}">
-  <link rel="stylesheet" href="{% static 'css/responsive-tablet.css' %}">
-  <link rel="stylesheet" href="{% static 'css/responsive-small-pc.css' %}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    <title>Tổ dân phố 7 phường La Khê</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/newstyles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <img src="{% static 'img/dongchi.png' %}" alt="dongchi" style="width: 100%; height: 100vh;">
-  <main class="container my-4" style="width: 30%; position: absolute; top: 10%; left: 35%; background-color: #D9D9D9;">
-    <section>
-      <h3 style="text-align: center;">Đăng ký tài khoản</h3>
-      <div class="container">
-        <form class="form-signup" method="post">
-          {% csrf_token %}
-          <div class="form-group" style="margin-top: 20px;">
-            <label for="username">Tài khoản <p style="color: red; display: inline;">*</p></label>
-            <input type="text" class="form-control" id="username" name="username" placeholder="Username của bạn">
-          </div>
-          <div class="form-group" style="margin-top: 20px;">
-            <label for="email">Email <p style="color: red; display: inline;">*</p></label>
-            <input type="text" class="form-control" id="email" name="email" placeholder="Email của bạn">
-          </div>
-          <div class="form-group" style="margin-top: 20px;">
-            <label for="first_name">Tên <p style="color: red; display: inline;">*</p></label>
-            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Tên của bạn">
-          </div>
-          <div class="form-group" style="margin-top: 20px;">
-            <label for="last_name">Họ <p style="color: red; display: inline;">*</p></label>
-            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Họ của bạn">
-          </div>
-          <div class="form-group" style="margin-top: 20px;">
-            <label for="password1">Mật khẩu <p style="color: red; display: inline;">*</p></label>
-            <input type="password" class="form-control" id="password1" name="password1" placeholder="Mật khẩu của bạn">
-          </div>
-          <div class="form-group" style="margin-top: 20px;">
-            <label for="password2">Nhập lại mật khẩu <p style="color: red; display: inline;">*</p></label>
-            <input type="password" class="form-control" id="password2" name="password2"
-              placeholder="Nhập lại mật khẩu của bạn">
-          </div>
-          <button type="submit" class="btn btn-primary"
-            style="margin: 10px 0 0 70%; width: 30%; border-radius: 10px; background-color: #3F5BBC;">Đăng ký</button>
-        </form>
-        <div style="height: 20px;"></div>
-      </div>
-    </section>
-  </main>
+    <header>
+        <div class="header-left">
+            <h1>
+                <pre>Nhóm 3 NMCNPM</pre>
+            </h1>
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <div class="container">
+            <h1>Đăng ký</h1>
+
+            <form class="form" id="register-form" method="post">
+                {% csrf_token %}
+                <input type="text" placeholder="Tên tài khoản" id="username" name="Username của bạn" required>
+                <input type="email" placeholder="Địa chỉ email" id="email" name="Email của bạn" required> 
+                <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Tên của bạn" required>
+                <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Họ của bạn" required>
+                <input type="password" placeholder="Mật khẩu" id="password1" name="password1" required>
+                <input type="password" placeholder="Nhập lại mật khẩu" id="password2" name="password2" required>
+
+                <button type="submit">Đăng ký</button>
+
+                <h3>Đã có tài khoản? <a href="/login">Đăng nhập</a></h3>
+            </form>
+        </div>
+
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
 </body>
 
 </html>

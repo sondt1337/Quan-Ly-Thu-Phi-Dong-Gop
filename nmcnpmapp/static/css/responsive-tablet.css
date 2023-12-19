@@ -68,12 +68,6 @@
         margin-left: 60% !important;
     }
 
-    .canbo {
-        width: 100%;
-        margin-bottom: 30px;
-        padding-left: 10%;
-    }
-
     .present {
         width: 100%;
         margin: 30px 0;
@@ -109,12 +103,6 @@
 
     .sub-user>li>a {
         width: 100%;
-    }
-
-    .canbo {
-        width: 50%;
-        margin-left: 20%;
-        margin-right: 30%;
     }
     
     .personal {
