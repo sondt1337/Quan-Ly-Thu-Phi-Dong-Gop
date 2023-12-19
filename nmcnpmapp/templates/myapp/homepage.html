@@ -63,14 +63,14 @@
     </div>
   </nav>
   <main>
-    <section>
-      <h3 style="text-align: center;">Chào mừng đến với Trang chủ của Tổ dân phố 7 phường La Khê</h3>
-    </section>
+    <h3 class="hello">Chào mừng đến với Trang chủ của Tổ dân phố 7 phường La Khê</h3>
+    <img class="run-image" src="{% static 'img/dongchi.png' %}" alt="hoian"
+      style="width: 100%; height: 100vh; border-radius: 10px;">
   </main>
   <main style="background-color: antiquewhite;">
     <section>
-      <h3 style="margin-left: 25px; margin-bottom: 20px;">Tin tức <img src="{% static 'icon/announcement.svg' %}"
-          alt="news" style="width: 30px; padding-bottom: 5px;" /></h3>
+      <h3 class="heading-news" style="margin-left: 25px; margin-bottom: 20px;">Tin tức <img
+          src="{% static 'icon/announcement.svg' %}" alt="news" style="width: 30px; padding-bottom: 5px;" /></h3>
 
       <div style="display: flex; margin-left: 25px;">
         <div class="news">
@@ -97,6 +97,21 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script>
+    const image = document.querySelector(".run-image");
+
+    const images = [
+      "{% static 'img/ha1.jpg' %}",
+      "{% static 'img/ha2.jpg' %}",
+      "{% static 'img/ha3.jpg' %}",
+      "{% static 'img/ha4.jpg' %}",
+      "{% static 'img/ha5.jpg' %}",
+    ];
+
+    const interval = setInterval(() => {
+      image.src = images[Math.floor(Math.random() * images.length)];
+    }, 3000);
+  </script>
 </body>
 
 </html>
