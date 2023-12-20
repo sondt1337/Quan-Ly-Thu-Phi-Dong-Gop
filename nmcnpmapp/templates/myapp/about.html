@@ -86,12 +86,12 @@
             quy
             trình quản lý tài chính.</p>
         </div>
-        <div class="div-child2">
+        <div class="div-child2 fade-in">
           <img src="{% static 'img/service.png' %}" alt="service-image">
         </div>
       </div>
       <div class="div-parent">
-        <div class="div-child1">
+        <div class="div-child1 fade-in">
           <div class="div-child-row">
             <div class="div-image">
               <img src="{% static 'img/django.svg' %}" alt="django" class="language">
@@ -121,15 +121,15 @@
             </div>
           </div>
         </div>
-        <div class="div-child2">
+        <div class="div-child2 fade-in">
           <p><strong>Sử dụng linh hoạt, đa dạng ngôn ngữ và công nghệ</strong></p>
         </div>
       </div>
       <div class="div-parent" style="background-color: aliceblue; padding-top: 3%;">
-        <div class="div-child3">
+        <div class="div-child3 fade-in">
           <p><strong>Cùng đội ngũ phát triển nhiệt huyết, sáng tạo</strong></p>
         </div>
-        <div class="div-child4">
+        <div class="div-child4 fade-in">
           <div class="div-child-row">
             <div class="div-image">
               <img src="{% static 'img/dinhthaison.png' %}" alt="django" class="avatar">
@@ -188,6 +188,19 @@
     const interval = setInterval(() => {
       image.src = images[Math.floor(Math.random() * images.length)];
     }, 3000);
+    
+    window.addEventListener('scroll', function () {
+      var elements = document.querySelectorAll('.fade-in');
+      for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        var boundingRect = element.getBoundingClientRect();
+        if (boundingRect.top * 1.2 < window.innerHeight) {
+          element.classList.add('is-visible');
+        } else {
+          element.classList.remove('is-visible');
+        }
+      }
+    });
   </script>
 </body>
 

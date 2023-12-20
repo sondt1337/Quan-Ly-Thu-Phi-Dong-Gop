@@ -67,10 +67,10 @@
   </main>
   <main style="background-color: #87A4CF; margin: 0; padding-right: 0;">
     <section>
-      <h3 class="heading-news">Tin tức <img src="{% static 'icon/announcement.svg' %}" alt="news" /></h3>
+      <h3 class="heading-news fade-in">Tin tức <img src="{% static 'icon/announcement.svg' %}" alt="news" /></h3>
       <div class="div-news">
         {% for article in articles %}
-        <div class="new">
+        <div class="new  fade-in">
           <div class="new-article" style="display: flex;">
             <img src="{{ article.image.url }}" alt="{{ article.title }}" />
             <a href="{{ article.link }}">{{article.title}}</a>
@@ -104,6 +104,19 @@
     const interval = setInterval(() => {
       image.src = images[Math.floor(Math.random() * images.length)];
     }, 3000);
+
+    window.addEventListener('scroll', function () {
+      var elements = document.querySelectorAll('.fade-in');
+      for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        var boundingRect = element.getBoundingClientRect();
+        if (boundingRect.top * 1.2 < window.innerHeight) {
+          element.classList.add('is-visible');
+        } else {
+          element.classList.remove('is-visible');
+        }
+      }
+    });
   </script>
 </body>
 
