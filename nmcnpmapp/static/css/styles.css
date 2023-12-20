@@ -5,37 +5,6 @@ h3 {
     letter-spacing: 2px;
 }
 
-.news {
-    display: flex;
-    overflow-x: auto;
-    /* Enable horizontal scrolling if articles exceed container width */
-    width: 100%;
-}
-
-.sub-news {
-    height: 500px;
-    float: left;
-}
-
-.article {
-    margin-right: 20px;
-    /* Adjust the spacing between articles */
-}
-
-.article-image {
-    width: 100%;
-    height: 60%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-}
-
-.title {
-    word-spacing: 2px;
-    font-size: 20px;
-    color: black;
-}
-
 #service1,
 #service2,
 #service3 {
@@ -198,4 +167,99 @@ p {
 
 .address {
     font-size: 20px;
+}
+
+.run-image {
+    width: 80%;
+    height: 70vh;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.heading-news {
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.heading-news>img {
+    width: 30px;
+    padding-bottom: 5px;
+}
+
+.div-news {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.new {
+    width: 30%;
+    margin-bottom: 50px;
+    margin-right: 3.33%;
+    border: black 2px solid;
+    border-radius: 10px;
+    background-color: #4682B4;
+}
+
+.new-article>a {
+    width: 40%;
+    height: fit-content;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    color: black;
+    text-align: justify;
+}
+
+.new-article>img {
+    width: 60%;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.new-article>a:hover {
+    color: aliceblue
+}
+
+.div-child1>h5 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.div-child2>img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.div-child2>p {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+
+.div-child3 {
+    width: 35%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.div-child3>p {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 25%;
+    letter-spacing: 2px;
+}
+
+.div-child4 {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.div-image-special {
+    width: 33%;
+    margin-left: 17%;
 }

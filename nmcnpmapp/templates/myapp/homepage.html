@@ -63,26 +63,20 @@
     </div>
   </nav>
   <main style="margin: 0;">
-    <img class="run-image" src="{% static 'img/dongchi.png' %}" alt="hoian"
-      style="width: 100%; height: 100vh; border-radius: 10px;">
+    <img class="run-image" src="{% static 'img/dongchi.png' %}" alt="hoian">
   </main>
-  <main style="background-color: #87A4CF; margin: 0;">
+  <main style="background-color: #87A4CF; margin: 0; padding-right: 0;">
     <section>
-      <h3 class="heading-news" style="margin-left: 25px; margin-bottom: 20px;">Tin tức <img
-          src="{% static 'icon/announcement.svg' %}" alt="news" style="width: 30px; padding-bottom: 5px;" /></h3>
-
-      <div style="display: flex; margin-left: 25px;">
-        <div class="news">
-          {% for article in articles %}
-          <div class="news">
-            <div class="article">
-              <img src="{{ article.image.url }}" alt="{{ article.title }}" class="article-image" />
-              <a class="title" href="{{ article.link }}">{{ article.title }}</a>
-            </div>
+      <h3 class="heading-news">Tin tức <img src="{% static 'icon/announcement.svg' %}" alt="news" /></h3>
+      <div class="div-news">
+        {% for article in articles %}
+        <div class="new">
+          <div class="new-article" style="display: flex;">
+            <img src="{{ article.image.url }}" alt="{{ article.title }}" />
+            <a href="{{ article.link }}">{{article.title}}</a>
           </div>
-          {% endfor %}
         </div>
-        <div class="sub-news"></div>
+        {% endfor %}
       </div>
     </section>
   </main>
