@@ -182,6 +182,7 @@ nav li {
 }
 
 #footer {
+    position: fixed;
     background-color: #414A57;
 }
 

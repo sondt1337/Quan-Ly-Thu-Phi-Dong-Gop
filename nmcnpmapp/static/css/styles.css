@@ -86,8 +86,9 @@ p {
 }
 
 .special-main {
-    width: 40% !important;
+    width: 40%;
     margin: 0 auto;
+    margin-bottom: 20px;
     background-color: aliceblue;
     border-radius: 10px;
 }
@@ -171,7 +172,7 @@ p {
 
 .run-image {
     width: 80%;
-    height: 70vh;
+    height: 600px;
     border-radius: 10px;
     margin-left: 10%;
 }
@@ -210,12 +211,12 @@ p {
     padding-top: 5px;
     padding-right: 10px;
     color: black;
-    text-align: justify;
+    text-align: left;
 }
 
 .new-article>img {
     width: 60%;
-    height: 30vh;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -262,4 +263,12 @@ p {
 .div-image-special {
     width: 33%;
     margin-left: 17%;
+}
+
+.main-personal {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: aliceblue;
 }

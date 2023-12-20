@@ -19,27 +19,13 @@
         width: 50% !important;
     }
 
-    .form-signup,
-    .form-signin {
-        width: 160% !important;
-        margin-left: -30%;
-    }
-
     .password-change-form {
         width: 80%;
         margin-left: 10%;
     }
 
-    .article-image {
-        height: 50%;
-    }
-
-    .title {
-        font-size: 17px;
-    }
-
     .special-main {
-        width: 50%;
+        width: 65%;
     }
 
     .sub-user {
@@ -66,5 +52,14 @@
     .avatar {
         width: 125px;
         height: 125px;
+    }
+
+    .new {
+        width: 47%;
+        margin-right: 3%;
+    }
+
+    .div-image>p {
+        font-size: 15px;
     }
 }
