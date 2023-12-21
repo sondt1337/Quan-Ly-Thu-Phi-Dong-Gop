@@ -1,65 +1,69 @@
 @media (max-width: 1500px) and (min-width: 992px) {
     .custom-div1 {
-        width: 10%;
+      width: 10%;
     }
 
     .navbar-nav {
-        width: 60% !important;
+      width: 60% !important;
     }
-    
+
     .custom-div2 {
-        width: 5%;
+      width: 5%;
     }
-    
+
     .custom-div3 {
-        width: 15%;
+      width: 15%;
     }
 
     .container {
-        width: 50% !important;
+      width: 50% !important;
     }
 
     .password-change-form {
-        width: 80%;
-        margin-left: 10%;
+      width: 80%;
+      margin-left: 10%;
     }
 
     .special-main {
-        width: 65%;
+      width: 65%;
     }
 
     .sub-user {
-        width: 12%;
-        margin: 0;
-        left: 85%;
-        padding-left: 0;
+      width: 12%;
+      margin: 0;
+      left: 85%;
+      padding-left: 0;
     }
 
     .sub-user>li>a {
-        width: 100%;
+      width: 100%;
     }
 
     .tool {
-        width: 15% !important;
+      width: 15% !important;
     }
 
     .div-child2>img {
-        width: 90% !important;
-        height: 80%;
-        margin-left: 5% !important;
+      width: 90% !important;
+      height: 80%;
+      margin-left: 5% !important;
     }
 
     .avatar {
-        width: 125px;
-        height: 125px;
+      width: 125px;
+      height: 125px;
     }
 
     .new {
-        width: 47%;
-        margin-right: 3%;
+      width: 47%;
+      margin-right: 3%;
     }
 
     .div-image>p {
-        font-size: 15px;
+      font-size: 15px;
     }
-}
+
+    .main-personal {
+      width: 40%;
+    }
+  }

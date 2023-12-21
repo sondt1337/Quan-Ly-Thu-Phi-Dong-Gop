@@ -1,147 +1,199 @@
 @media (max-width: 599px) {
     .menu-toggle {
-        display: block;
+      display: block;
     }
 
     nav ul {
-        display: none;
-        background-color: #3498db;
+      display: none;
+      background-color: #3498db;
     }
 
     nav li {
-        display: block;
-        text-align: center;
-        margin: 10px;
+      display: block;
+      text-align: center;
+      margin: 10px;
     }
 
-    .UBND, .CDV {
-        font-size: 15px;
+    .UBND,
+    .CDV {
+      font-size: 15px;
     }
 
     .image-header {
-        height: 110px;
+      height: 110px;
     }
 
     main {
-        margin: 0;
-        margin-bottom: 25px;
-        width: 100% !important;
+      margin: 0;
+      margin-bottom: 25px;
+      width: 100% !important;
     }
 
     h3 {
-        font-size: 22px !important;
-        margin-left: 0 !important;
+      font-size: 22px !important;
+      margin-left: 0 !important;
     }
 
     h4 {
-        font-size: 20px !important; 
+      font-size: 20px !important;
     }
 
     b {
-        font-size: 17px !important;
+      font-size: 17px !important;
     }
 
     .col-md-2 {
-        max-width: 100% !important;
-        text-align: center;
+      max-width: 100% !important;
+      text-align: center;
     }
 
-    #service1, #service2, #service3 {
-        height: 70px;
-        font-size: 17px;
-        padding-right: 10px;
+    #service1,
+    #service2,
+    #service3 {
+      height: 70px;
+      font-size: 17px;
+      padding-right: 10px;
     }
 
     #footer {
-        font-size: 15px;
+      font-size: 15px;
     }
 
     .notify a {
-        font-size: medium;
+      font-size: medium;
     }
 
     .btn-primary {
-        width: 40% !important;
-        margin-left: 60% !important;
+      width: 40% !important;
+      margin-left: 60% !important;
     }
 
     .custom-a {
-        width: 100% !important;
-        padding-left: 2px !important;
-        text-align: start;
+      width: 100% !important;
+      padding-left: 2px !important;
+      text-align: start;
     }
 
     .custom-div3 {
-        float: right;
-        width: fit-content;
-        margin-top: -217px;
+      float: right;
+      width: fit-content;
+      margin-top: -217px;
     }
 
     .sub-user {
-        width: 50%;
-        margin: 0;
-        margin-top: 42px;
-        left: 55%;
-        padding-left: 0;
+      width: 50%;
+      margin: 0;
+      margin-top: 42px;
+      left: 55%;
+      padding-left: 0;
     }
 
     .sub-user>li>a {
-        width: 90%;
+      width: 90%;
     }
 
     .div-child1 {
-        width: 90%;
+      width: 100%;
     }
 
-    .div-child12 {
-        width: 90%;
-        margin-top: 10%;
-        margin-bottom: 20%;
+    .div-child2 {
+      width: 90%;
+      margin-top: 10%;
+      margin-bottom: 20%;
     }
 
     .div-child3 {
-        width: 90% !important;
+      width: 90% !important;
     }
 
     .div-child4 {
-        width: 90% !important;
-        margin-top: 10%;
+      width: 90% !important;
+      margin-top: 10%;
     }
 
     .div-child-row {
-        display: block;
+      display: block;
     }
 
     .div-image {
-        width: 100%;
+      width: 100%;
     }
 
     .div-image-special {
-        width: 100% !important;
-        margin-left: 0 !important;
+      width: 100% !important;
+      margin-left: 0 !important;
     }
 
     .language {
-        width: 40%;
+      width: 40%;
     }
 
-    .div-image>p, .div-image-special>p {
-        font-size: 20px;
+    .div-image>p,
+    .div-image-special>p {
+      font-size: 20px;
     }
 
-    .div-child2>p, .div-child3>p {
-        font-size: x-large !important;
+    .div-child2>p,
+    .div-child3>p {
+      font-size: x-large !important;
     }
 
     .run-image {
-        width: 250px;
+      height: 300px;
     }
 
     .new {
-        width: 90%;
+      width: 90%;
     }
 
     .main-personal {
-        width: 40%;
+      width: 40%;
     }
-}
+
+    .div-news {
+      margin-left: 0;
+    }
+
+    .new-article {
+      flex-wrap: wrap;
+    }
+
+    .new-article>img,
+    .new-article>a {
+      width: 100%;
+    }
+
+    .div-parent {
+      flex-wrap: wrap;
+    }
+
+    section {
+      margin: 0;
+    }
+
+    .div-contact {
+      flex-wrap: wrap;
+      padding-left: 15px;
+    }
+
+    .address {
+      font-size: 17px;
+      padding-left: 3%;
+    }
+
+    .div-image,
+    .div-info>h3 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .hello {
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    .div-info {
+      width: 100%;
+      margin-right: 5%;
+    }
+  }
