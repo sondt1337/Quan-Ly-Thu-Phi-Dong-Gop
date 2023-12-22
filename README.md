@@ -28,26 +28,29 @@ Sau khi tải thư viện Django, có thể chạy ứng dụng với lệnh sau
 python manage.py runserver
 ```
 Ứng dụng sẽ được chạy local ở [http://localhost:8000](http://localhost:8000) (8000 là port mặc định của Django)
-## DEMO
-1. Sản phẩm demo: [DEMO](https://projectnmcnpm--sondt210750.repl.co/)
+## DEMO 
+
+1. Sản phẩm demo: [Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê](https://projectnmcnpm--sondt210750.repl.co/)
 2. Tài khoản thường
 Người dùng có thể tự tạo tài khoản ở phần Đăng ký (nhập các thông tin đầy đủ và phải được duyệt thông qua ADMIN để sử dụng bình thường)
 
 ![](images/wait.png)
 
-1. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
+3. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
 ```
 username: admin
 password: admin@12345
 ```
+## Giao diện (Interface)
+### Homepage
 
 ![](images/image.png)
 
-Trang đăng nhập & đăng ký
+### Trang đăng nhập & đăng ký
 
 ![](images/image-1.png)
 
-Trang dịch vụ
+### Trang dịch vụ
 
 ![](images/image-3.png)
 
