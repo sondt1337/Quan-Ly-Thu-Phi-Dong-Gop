@@ -35,7 +35,7 @@ Người dùng có thể tự tạo tài khoản ở phần Đăng ký
 ![image](https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop/assets/87920408/02f33140-41ea-4d1c-bd2c-f763918cccb1)
 
 
-4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm--sondt210750.repl.co/admin)):
+4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
 - Tên tài khoản: `admin`
 - Mật khẩu: `admin123`
 ## Giới thiệu phần mềm
