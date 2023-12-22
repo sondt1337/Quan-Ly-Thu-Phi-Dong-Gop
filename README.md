@@ -32,10 +32,23 @@ python manage.py runserver
 2. Tài khoản thường
 Người dùng có thể tự tạo tài khoản ở phần Đăng ký
 
-![image](https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop/assets/87920408/02f33140-41ea-4d1c-bd2c-f763918cccb1)
+Trang chủ
 
+![](images/image.png)
 
-4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
+Trang đăng nhập
+
+![](images/image-1.png)
+
+Trang đăng ký
+
+![](images/image-2.png)
+
+Trang dịch vụ
+
+![Dich vu](images/image-3.png)
+
+1. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
 - Tên tài khoản: `admin`
 - Mật khẩu: `admin123`
 ## Giới thiệu phần mềm
