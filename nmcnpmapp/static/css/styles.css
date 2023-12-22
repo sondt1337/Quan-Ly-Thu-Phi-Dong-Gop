@@ -172,7 +172,7 @@ p {
 
 .run-image {
     width: 80%;
-    height: 600px;
+    height: 700px;
     border-radius: 10px;
     margin-left: 10%;
 }
@@ -280,4 +280,18 @@ p {
 
 .fade-in.is-visible {
     opacity: 1;
+}
+
+@keyframes delayed-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.delayed-element {
+    animation: delayed-fade-in 1.5s ease-in-out 0s forwards;
+    /* Delay of 2 seconds */
 }

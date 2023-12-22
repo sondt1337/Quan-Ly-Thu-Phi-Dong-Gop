@@ -142,7 +142,7 @@ nav li {
 }
 
 .custom-a:hover {
-    color: red !important;
+    color: #87A4CF !important;
 }
 
 .image-header {
@@ -194,7 +194,7 @@ nav li {
 }
 
 .user:hover {
-    color: red;
+    color: #87A4CF;
 }
 
 .sub-user {
@@ -222,7 +222,7 @@ nav li {
 }
 
 .sub-user>li>a:hover {
-    color: red;
+    color: #87A4CF;
     text-decoration: none;
 }
 
