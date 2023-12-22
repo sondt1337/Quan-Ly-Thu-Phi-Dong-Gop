@@ -16,41 +16,41 @@ Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình t
 1. Tải repository
 ```
 git clone https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop.git
+cd Quan-Ly-Thu-Phi-Dong-Gop
 ```
-2. Tải thư viện Django
+2. Cài đặt thư viện Django
 ```
 pip install django
 ```
-## Chạy phần mềm
-1. Chạy phần mềm
+## Chạy phần mềm trên local (Local Deployment)
+Sau khi tải thư viện Django, có thể chạy ứng dụng với lệnh sau:
 ```
 python manage.py runserver
 ```
-Ứng dụng sẽ được chạy local ở [http://localhost:8000](http://localhost:8000) (port mặc định của Django)
+Ứng dụng sẽ được chạy local ở [http://localhost:8000](http://localhost:8000) (8000 là port mặc định của Django)
 ## DEMO
 1. Sản phẩm demo: [DEMO](https://projectnmcnpm--sondt210750.repl.co/)
 2. Tài khoản thường
-Người dùng có thể tự tạo tài khoản ở phần Đăng ký
+Người dùng có thể tự tạo tài khoản ở phần Đăng ký (nhập các thông tin đầy đủ và phải được duyệt thông qua ADMIN để sử dụng bình thường)
 
-Trang chủ
+![](images/wait.png)
+
+1. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
+```
+username: admin
+password: admin@12345
+```
 
 ![](images/image.png)
 
-Trang đăng nhập
+Trang đăng nhập & đăng ký
 
 ![](images/image-1.png)
 
-Trang đăng ký
-
-![](images/image-2.png)
-
 Trang dịch vụ
 
-![Dich vu](images/image-3.png)
+![](images/image-3.png)
 
-1. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
-- Tên tài khoản: `admin`
-- Mật khẩu: `admin123`
 ## Giới thiệu phần mềm
 Phần mềm quản lý thu phí đóng góp cho tổ dân phố là một ứng dụng Web chạy bởi backend là [Django](https://www.djangoproject.com/start/overview/)
 
