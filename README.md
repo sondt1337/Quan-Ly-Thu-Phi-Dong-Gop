@@ -4,6 +4,7 @@ Phần mềm Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường
 Với hơn 400 hộ gia đình, sinh viên thuê trọ và các khoản đóng góp đa dạng, phần mềm này giúp cán bộ kế toán lập danh sách, thu phí vệ sinh hàng năm và quản lý các đóng góp từ cộng đồng.
 
 Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình tài chính và tăng cường tính minh bạch trong quản lý. Dự án này sẽ nâng cao quản lý tổ dân phố thông qua công nghệ thông tin và hiệu quả hóa quy trình quản lý tài chính.
+
 ## Thành viên nhóm 3
 | Thành viên                                              | MSSV     | Vai trò     | Nhiệm vụ                      |
 | ------------------------------------------------------- | -------- | ----------- | ----------------------------- |
@@ -12,6 +13,7 @@ Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình t
 | [Phạm Quang Huy](https://github.com/Huygiauten)         | 20210448 |             | Frontend (Lập trình)          |
 | [Trần Ngọc Bảo](https://github.com/TranNgocBao12062003) | 20215529 |             | Frontend (Lập trình)          |
 | [Vũ Minh Hiển](https://github.com/Minh-Hien2904)        | 20210324 |             | Report                        |
+
 ## Cài đặt
 1. Tải repository
 ```
@@ -22,21 +24,23 @@ cd Quan-Ly-Thu-Phi-Dong-Gop
 ```
 pip install django
 ```
+
 ## Chạy phần mềm trên local (Local Deployment)
 Sau khi tải thư viện Django, có thể chạy ứng dụng với lệnh sau:
 ```
 python manage.py runserver
 ```
 Ứng dụng sẽ được chạy local ở [http://localhost:8000](http://localhost:8000) (8000 là port mặc định của Django)
-## DEMO 
 
-1. Sản phẩm demo: [Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê](https://projectnmcnpm--sondt210750.repl.co/)
-2. Tài khoản thường
+## DEMO 
+1. Video giới thiệu sản phẩm [Video DEMO sản phẩm](https://youtu.be/FBIR0gkvZ9A)
+2. Sản phẩm demo: [Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê](https://projectnmcnpm--sondt210750.repl.co/)
+3. Tài khoản thường
 Người dùng có thể tự tạo tài khoản ở phần Đăng ký (nhập các thông tin đầy đủ và phải được duyệt thông qua ADMIN để sử dụng bình thường)
 
 ![](images/wait.png)
 
-3. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
+4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
 ```
 username: admin
 password: admin@12345
