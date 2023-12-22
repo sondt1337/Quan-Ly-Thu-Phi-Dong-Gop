@@ -59,4 +59,4 @@ Phần mềm quản lý thu phí đóng góp cho tổ dân phố là một ứng
 
 Trang quản trị Django: 
 
-![image](https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop/assets/87920408/87ebafca-31af-4fc9-b3a7-d98025e219ba)
+![](images/django-main.png)
