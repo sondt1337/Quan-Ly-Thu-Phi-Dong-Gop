@@ -14,7 +14,7 @@ Nó cũng cung cấp các công cụ thống kê để nắm bắt tình hình t
 | [Trần Ngọc Bảo](https://github.com/TranNgocBao12062003) | 20215529 |             | Frontend (Lập trình)          |
 | [Vũ Minh Hiển](https://github.com/Minh-Hien2904)        | 20210324 |             | Report                        |
 
-## Cài đặt
+## Cài đặt (Install & Config)
 1. Tải repository
 ```
 git clone https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop.git
@@ -23,7 +23,9 @@ cd Quan-Ly-Thu-Phi-Dong-Gop
 2. Cài đặt thư viện Django
 ```
 pip install django
+python -m django --version
 ```
+Yêu cầu Django phiên bản 4.2.8 trở lên
 
 ## Chạy phần mềm trên local (Local Deployment)
 Sau khi tải thư viện Django, có thể chạy ứng dụng với lệnh sau:
@@ -43,24 +45,49 @@ Người dùng có thể tự tạo tài khoản ở phần Đăng ký (nhập c
 4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
 ```
 username: admin
-password: admin@12345
+password: admin@12345 (mật khẩu mặc định cho các tài khoản user)
 ```
-## Giao diện (Interface)
+## Giao diện phía người dùng (Client Interface)
 ### Homepage
 
-![](images/image.png)
+![](images/homepage.png)
 
 ### Trang đăng nhập & đăng ký
 
-![](images/image-1.png)
+![](images/signin_signup.png)
 
 ### Trang dịch vụ
 
-![](images/image-3.png)
+![](images/service.png)
 
-## Giới thiệu phần mềm
+### Hồ sơ (Profile)
+
+![](images/profile.png)
+
+### Trang thông báo thu phí/đóng góp (Notification)
+
+![](images/notification.png)
+
+## Giao diện phía ADMIN (Admin Interface)
 Phần mềm quản lý thu phí đóng góp cho tổ dân phố là một ứng dụng Web chạy bởi backend là [Django](https://www.djangoproject.com/start/overview/)
 
-Trang quản trị Django: 
+### Trang quản lý người dùng
 
-![](images/django-main.png)
+![](images/user-general.png)
+
+### Chi tiết người dùng
+
+![](images/user1.png)
+
+![](images/user2.png)
+
+### Trang quản lý mã hộ khẩu
+
+![](images/home-code.png)
+
+### Trang quản lý tin tức
+
+![](images/news.png)
+
+## Liên hệ (Contact)
+Dinh Thai Son: sondinh99999@gmail.com (Trưởng nhóm)
