@@ -1,0 +1,1 @@
+# PNG export từ Figma
