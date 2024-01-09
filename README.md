@@ -36,13 +36,13 @@ python manage.py runserver
 
 ## DEMO 
 1. Video giới thiệu sản phẩm [Video DEMO sản phẩm](https://youtu.be/FBIR0gkvZ9A)
-2. Sản phẩm demo: [Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê](https://projectnmcnpm--sondt210750.repl.co/)
+2. Sản phẩm demo: [Quản lý thu phí và đóng góp cho Tổ dân phố 7 phường La Khê]([https://cf4532ce-9c5a-44a5-bee7-2dc6ef097c67-00-yqmj3xhjeze5.pike.replit.dev/](https://cf4532ce-9c5a-44a5-bee7-2dc6ef097c67-00-yqmj3xhjeze5.pike.replit.dev/)
 3. Tài khoản thường
 Người dùng có thể tự tạo tài khoản ở phần Đăng ký (nhập các thông tin đầy đủ và phải được duyệt thông qua ADMIN để sử dụng bình thường)
 
 ![](images/wait.png)
 
-4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm.sondt210750.repl.co/admin)):
+4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://cf4532ce-9c5a-44a5-bee7-2dc6ef097c67-00-yqmj3xhjeze5.pike.replit.dev/admin)):
 ```
 username: admin
 password: admin@12345 (mật khẩu mặc định cho các tài khoản user)
